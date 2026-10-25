@@ -66,7 +66,8 @@
     "social": 9
    },
    "cg_id": "quantus",
-   "price_updated": "2026-10-25T13:19:12-05:00"
+   "price_updated": "2026-10-25T13:19:12-05:00",
+   "logo": "logos/quantus.png"
   },
   {
    "name": "Pearl",
@@ -116,7 +117,8 @@
     "social": 8
    },
    "cg_id": "pearl-2",
-   "price_updated": "2026-10-25T13:19:12-05:00"
+   "price_updated": "2026-10-25T13:19:12-05:00",
+   "logo": "logos/pearl.png"
   },
   {
    "name": "GenLayer",
@@ -164,7 +166,8 @@
     "tokenomics": 6,
     "dev": 8,
     "social": 9
-   }
+   },
+   "logo": "logos/genlayer.png"
   },
   {
    "name": "Quip Network",
@@ -208,7 +211,8 @@
     "tokenomics": 6,
     "dev": 9,
     "social": 8
-   }
+   },
+   "logo": "logos/quip-network.png"
   },
   {
    "name": "FLOP",
@@ -252,7 +256,8 @@
     "tokenomics": 8,
     "dev": 4,
     "social": 8
-   }
+   },
+   "logo": "logos/flop-network.png"
   },
   {
    "name": "Amadeus Protocol",
@@ -296,7 +301,8 @@
     "tokenomics": 9,
     "dev": 6,
     "social": 7
-   }
+   },
+   "logo": "logos/amadeus-protocol.png"
   }
  ],
  "prelaunch_updates": [
@@ -367,17 +373,20 @@
    {
     "name": "Pearl",
     "why": "74, the closest to HIGH. Needs a named audit and a Coinbase trading date. FDV is 5.9x market cap. Ignore 'WPRL' look-alikes.",
-    "url": "https://pearlresearch.ai/"
+    "url": "https://pearlresearch.ai/",
+    "logo": "logos/pearl.png"
    },
    {
     "name": "Quantus",
     "why": "76 HIGH and already live. Check the RHEA lending launch and confirm the supply/FDV math (a third party quotes $1.8B, CoinGecko shows $437M).",
-    "url": "https://www.quantus.com"
+    "url": "https://www.quantus.com",
+    "logo": "logos/quantus.png"
    },
    {
     "name": "GenLayer",
     "why": "Time-sensitive: confirm today's Season 1 snapshot and Monday's registration close on official channels. Any GEN token now is fake.",
-    "url": "https://genlayer.com"
+    "url": "https://genlayer.com",
+    "logo": "logos/genlayer.png"
    }
   ]
  },
