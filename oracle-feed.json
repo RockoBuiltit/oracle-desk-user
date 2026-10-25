@@ -1,0 +1,26 @@
+{
+ "generated_at": "2026-10-25T12:20:49-05:00",
+ "status": {
+  "state": "idle",
+  "last_scan": null,
+  "next_scan": "2026-10-25T16:00:00-05:00",
+  "activity": [
+   "Desk set up; first scan scheduled"
+  ],
+  "alerts_used_today": 0,
+  "alert_cap": 3,
+  "x_reads_left_today": null
+ },
+ "alerts": [],
+ "watchlist": [],
+ "prelaunch_updates": [],
+ "digest": {
+  "date": "2026-10-25",
+  "ai": [],
+  "quantum": [],
+  "top3": []
+ },
+ "rejections": [],
+ "deadlines": [],
+ "snapshot_note": "CoinGecko snapshots, times in Central"
+}
