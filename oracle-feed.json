@@ -31,13 +31,13 @@
      "score": 76
     }
    ],
-   "market_cap": 23043836,
+   "market_cap": 22950058,
    "fdv": 436976923,
-   "volume_24h": 1032922,
+   "volume_24h": 837654,
    "dex_route": "Rhea Finance (NEAR)",
    "next_milestone": "QTC lending market on RHEA (official: 'soon', undated)",
    "milestone_date": null,
-   "last_update": "2026-10-25T12:32:00-05:00",
+   "last_update": "2026-10-25T12:45:24-05:00",
    "links": [
     {
      "label": "Quantus",
@@ -54,7 +54,7 @@
    ],
    "upgrade_if": "Named-firm audit; more venues",
    "downgrade_if": "Chain halt; mining-pool centralization",
-   "price": 75.89,
+   "price": 75.46,
    "website": "https://www.quantus.com",
    "score_breakdown": {
     "team": 11,
@@ -66,7 +66,7 @@
     "social": 9
    },
    "cg_id": "quantus",
-   "price_updated": "2026-10-25T12:32:00-05:00"
+   "price_updated": "2026-10-25T12:45:24-05:00"
   },
   {
    "name": "Pearl",
@@ -81,13 +81,13 @@
      "score": 74
     }
    ],
-   "market_cap": 664107676,
+   "market_cap": 667886703,
    "fdv": 3899151186,
-   "volume_24h": 7040407,
+   "volume_24h": 7107969,
    "dex_route": "No DEX route; CEX: SafeTrade PEARL/USDT",
    "next_milestone": "Coinbase listing roadmap (added Oct 19, no trading date)",
    "milestone_date": null,
-   "last_update": "2026-10-25T12:32:00-05:00",
+   "last_update": "2026-10-25T12:45:24-05:00",
    "links": [
     {
      "label": "Pearl Research",
@@ -104,7 +104,7 @@
    ],
    "upgrade_if": "Named audit + Coinbase trading date",
    "downgrade_if": "Usefulness-gap critique confirmed; FDV overhang",
-   "price": 1.85,
+   "price": 1.86,
    "website": "https://pearlresearch.ai/",
    "score_breakdown": {
     "team": 13,
@@ -116,7 +116,7 @@
     "social": 8
    },
    "cg_id": "pearl-2",
-   "price_updated": "2026-10-25T12:32:00-05:00"
+   "price_updated": "2026-10-25T12:45:24-05:00"
   },
   {
    "name": "GenLayer",
@@ -473,5 +473,6 @@
    "status": "upcoming"
   }
  ],
- "snapshot_note": "CoinGecko snapshots 12:30 PM CT Oct 25; X sweep since 12:00 PM CT Oct 23. Times in Central"
+ "snapshot_note": "CoinGecko snapshots 12:30 PM CT Oct 25; X sweep since 12:00 PM CT Oct 23. Times in Central",
+ "prices_updated": "2026-10-25T12:45:24-05:00"
 }
