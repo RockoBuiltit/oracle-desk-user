@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-25T12:32:00-05:00",
+ "generated_at": "2026-10-25T16:15:00-05:00",
  "status": {
   "state": "idle",
-  "last_scan": "2026-10-25T12:32:00-05:00",
-  "next_scan": "2026-10-25T16:00:00-05:00",
+  "last_scan": "2026-10-25T16:15:00-05:00",
+  "next_scan": "2026-10-25T20:00:00-05:00",
   "activity": [
-   "TEST SWEEP (draft, not published): 7 seed accounts + 20 expanded accounts checked",
-   "0 HIGH PRIORITY alerts (0 of 3). Quantus scores 76 but is already live, so no launch alert",
-   "Near miss: Pearl 74. Missing a named audit and a Coinbase trading date",
-   "Open campaign: Quip Points (no close date). GenLayer snapshot/registration dates not reconfirmed",
-   "Impostors flagged: @FlopNetwork (unofficial), @prlwallet (unverified), $DNA claim links",
-   "11 rejections, mostly claim-link spam and themed coins"
+   "4 PM scan: 13 official accounts checked since 12:00 PM CT + 5 keyword sweeps (AI and quantum, equal weight)",
+   "0 HIGH PRIORITY alerts (0 of 3 used today). No new project scored 75+",
+   "New WATCH: TermiX (TMT, AI) 55, pre-TGE agent marketplace backed by YZi Labs; Kaito Epoch 3 and BNB Set and Earn campaigns open",
+   "GenLayer confirmed (official): Season 1 final snapshot today Sun 10/25; Season 2 Points start Mon 10/26",
+   "New rejections: DAC Quantum Chain 47 (paid USDC loot crates, vague PQ claims), Sasona 28 (5-day-old $63k micro-cap)",
+   "Impostor warning: the TMT on CoinGecko is TopManager, not TermiX. TermiX has no token yet"
   ],
   "alerts_used_today": 0,
   "alert_cap": 3,
-  "x_reads_left_today": 973
+  "x_reads_left_today": 958
  },
  "alerts": [],
  "watchlist": [
@@ -137,9 +137,9 @@
    "fdv": null,
    "volume_24h": null,
    "dex_route": "No token yet; any GEN token now is fake",
-   "next_milestone": "Pre-TGE: moved to Arbitrum Oct 22; TGE undated",
-   "milestone_date": null,
-   "last_update": "2026-10-25T12:32:00-05:00",
+   "next_milestone": "Season 1 final snapshot Sun 10/25; Season 2 Points start Mon 10/26; TGE undated",
+   "milestone_date": "2026-10-26T00:00:00-05:00",
+   "last_update": "2026-10-25T16:15:00-05:00",
    "links": [
     {
      "label": "GenLayer on X",
@@ -152,6 +152,10 @@
     {
      "label": "Airdrop (official)",
      "url": "https://airdrop.genlayer.com"
+    },
+    {
+     "label": "Season 1/2 dates (official)",
+     "url": "https://x.com/GenLayer/status/2112934939867873677"
     }
    ],
    "upgrade_if": "Dated TGE + official Arbitrum contract + audit",
@@ -303,9 +307,74 @@
     "social": 7
    },
    "logo": "logos/amadeus-protocol.png"
+  },
+  {
+   "name": "TermiX",
+   "ticker": "TMT",
+   "theme": "AI",
+   "stage": "pre-launch",
+   "tier": "WATCH",
+   "score": 55,
+   "score_history": [
+    {
+     "date": "2026-10-25",
+     "score": 55
+    }
+   ],
+   "market_cap": null,
+   "fdv": null,
+   "volume_24h": null,
+   "dex_route": "No token yet; CoinGecko 'TMT' is unrelated (TopManager)",
+   "next_milestone": "Kaito Katalyst winners Mon 11/23; TGE undated",
+   "milestone_date": "2026-11-23T00:00:00-06:00",
+   "last_update": "2026-10-25T16:15:00-05:00",
+   "links": [
+    {
+     "label": "Kaito campaign (official)",
+     "url": "https://www.agent.family/campaigns/kaito-katalyst"
+    },
+    {
+     "label": "TermiX Points",
+     "url": "https://www.agent.family/points"
+    },
+    {
+     "label": "TermiX on X",
+     "url": "https://x.com/termix_ai"
+    }
+   ],
+   "upgrade_if": "Dated TGE + escrow-contract audit + independent volume check",
+   "downgrade_if": "Volume proves inflated; TGE slips past Q1 2027",
+   "price": null,
+   "website": "https://termix.ai",
+   "score_breakdown": {
+    "team": 7,
+    "tech": 12,
+    "backing": 10,
+    "security": 4,
+    "tokenomics": 5,
+    "dev": 8,
+    "social": 9
+   },
+   "logo": "logos/termix.png"
   }
  ],
  "prelaunch_updates": [
+  {
+   "project": "TermiX",
+   "theme": "AI",
+   "source_type": "official",
+   "text": "OPEN CAMPAIGNS: (1) Kaito Katalyst Epoch 3 opened Fri 10/24, the final epoch; 0.30% of TMT supply for 450 creators, winners Mon 11/23, unlocks at TGE. (2) BNB Chain 'Set and Earn' agent tasks close Thu 11/5 (merch). (3) TermiX Points Season 1, no end date and no TMT conversion. No TGE date. Escrow contracts unaudited, upgradeable proxy. Only agent.family links from @termix_ai.",
+   "at": "2026-10-25T16:15:00-05:00",
+   "url": "https://www.agent.family/campaigns/kaito-katalyst"
+  },
+  {
+   "project": "GenLayer",
+   "theme": "AI",
+   "source_type": "official",
+   "text": "Confirmed on @GenLayer: Season 1 final snapshot is Sun 10/25 (today); only registered wallets can claim. Season 2 Points start Mon 10/26 and run to mainnet; points carry over. Claims open on 'THE DAY' (undated), 20% then 20%/month. Earlier 'registration closes Mon 10/26' note NOT found in official posts. Only official link is in @GenLayer posts; no DMs.",
+   "at": "2026-10-25T16:15:00-05:00",
+   "url": "https://x.com/GenLayer/status/2112934935921045716"
+  },
   {
    "project": "Quip Network",
    "theme": "Quantum",
@@ -321,14 +390,6 @@
    "text": "Public testnet working target Tue 11/3, about 90 days; mainnet and TGE Q1 2027 (early Feb). Devnet earns nothing. Official page says no token, claim, presale or airdrop is live. @FlopNetwork is NOT official (official: @flop_labs).",
    "at": "2026-10-25T12:32:00-05:00",
    "url": "https://flop.finance/official/"
-  },
-  {
-   "project": "GenLayer",
-   "theme": "AI",
-   "source_type": "official",
-   "text": "Moved token and public network to Arbitrum (Oct 22); pre-TGE AMA held Fri Oct 23. Season 1 snapshot (Sun 10/25) and registration close (Mon 10/26) come from earlier desk notes and were not reconfirmed in this sweep. Only airdrop.genlayer.com.",
-   "at": "2026-10-25T12:32:00-05:00",
-   "url": "https://x.com/GenLayer/status/2113269144795701558"
   },
   {
    "project": "Amadeus Protocol",
@@ -391,6 +452,20 @@
   ]
  },
  "rejections": [
+  {
+   "name": "DAC Quantum Chain (DACT)",
+   "theme": "Quantum",
+   "score": 47,
+   "reason": "Real org with MiCA white paper and 147k followers, but launch-code-gated points platform sells USDC/ETH 'premium crates' (loot-box), 'Proof of Quantum Work' is vague and no TGE date; kept on radar",
+   "at": "2026-10-25T16:15:00-05:00"
+  },
+  {
+   "name": "Sasona (SASONA)",
+   "theme": "AI",
+   "score": 28,
+   "reason": "AI-agent payments idea on testnet only; token launched 10/20 on Solana at ~$63k FDV, ~$46k liquidity, anonymous team, X account 23 days old",
+   "at": "2026-10-25T16:15:00-05:00"
+  },
   {
    "name": "Asentum (ASE)",
    "theme": "Quantum",
@@ -471,6 +546,28 @@
  ],
  "deadlines": [
   {
+   "project": "GenLayer",
+   "theme": "AI",
+   "title": "Season 1 final snapshot (register to claim)",
+   "type": "Snapshot",
+   "date": "2026-10-25T00:00:00-05:00",
+   "all_day": true,
+   "approx": false,
+   "url": "https://x.com/GenLayer/status/2112934935921045716",
+   "status": "today"
+  },
+  {
+   "project": "GenLayer",
+   "theme": "AI",
+   "title": "Season 2 Points start (run to mainnet)",
+   "type": "Campaign",
+   "date": "2026-10-26T00:00:00-05:00",
+   "all_day": true,
+   "approx": false,
+   "url": "https://x.com/GenLayer/status/2112934939867873677",
+   "status": "upcoming"
+  },
+  {
    "project": "FLOP",
    "theme": "AI",
    "title": "Public testnet opens (working target, not fixed)",
@@ -480,8 +577,30 @@
    "approx": true,
    "url": "https://docs.flop.network/docs/testnet-and-timeline",
    "status": "upcoming"
+  },
+  {
+   "project": "TermiX",
+   "theme": "AI",
+   "title": "BNB Chain 'Set and Earn' agent tasks close",
+   "type": "Campaign",
+   "date": "2026-11-05T00:00:00-06:00",
+   "all_day": true,
+   "approx": false,
+   "url": "https://x.com/termix_ai/status/2113937329203322994",
+   "status": "upcoming"
+  },
+  {
+   "project": "TermiX",
+   "theme": "AI",
+   "title": "Kaito Katalyst winners announced (rewards unlock at TGE)",
+   "type": "Campaign",
+   "date": "2026-11-23T00:00:00-06:00",
+   "all_day": true,
+   "approx": false,
+   "url": "https://www.agent.family/campaigns/kaito-katalyst",
+   "status": "upcoming"
   }
  ],
- "snapshot_note": "CoinGecko snapshots 12:30 PM CT Oct 25; X sweep since 12:00 PM CT Oct 23. Times in Central",
+ "snapshot_note": "CoinGecko/DexScreener snapshots 4:10 PM CT Oct 25; X sweep since 12:00 PM CT Oct 25. Times in Central",
  "prices_updated": "2026-10-25T16:00:27-05:00"
 }
