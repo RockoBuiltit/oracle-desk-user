@@ -31,13 +31,13 @@
      "score": 76
     }
    ],
-   "market_cap": 22663276,
+   "market_cap": 22765835,
    "fdv": 436976923,
-   "volume_24h": 1228174,
+   "volume_24h": 1056076,
    "dex_route": "Rhea Finance (NEAR)",
    "next_milestone": "QTC lending market on RHEA (official: 'soon', undated)",
    "milestone_date": null,
-   "last_update": "2026-10-25T17:00:59-05:00",
+   "last_update": "2026-10-25T17:20:57-05:00",
    "links": [
     {
      "label": "Quantus",
@@ -54,7 +54,7 @@
    ],
    "upgrade_if": "Named-firm audit; more venues",
    "downgrade_if": "Chain halt; mining-pool centralization",
-   "price": 74.52,
+   "price": 74.9,
    "website": "https://www.quantus.com",
    "score_breakdown": {
     "team": 11,
@@ -66,7 +66,7 @@
     "social": 9
    },
    "cg_id": "quantus",
-   "price_updated": "2026-10-25T17:00:59-05:00",
+   "price_updated": "2026-10-25T17:20:57-05:00",
    "logo": "logos/quantus.png"
   },
   {
@@ -82,13 +82,13 @@
      "score": 74
     }
    ],
-   "market_cap": 681901222,
+   "market_cap": 680361316,
    "fdv": 3899151186,
-   "volume_24h": 7199520,
+   "volume_24h": 7219585,
    "dex_route": "No DEX route; CEX: SafeTrade PEARL/USDT",
    "next_milestone": "Coinbase listing roadmap (added Oct 19, no trading date)",
    "milestone_date": null,
-   "last_update": "2026-10-25T17:00:59-05:00",
+   "last_update": "2026-10-25T17:20:57-05:00",
    "links": [
     {
      "label": "Pearl Research",
@@ -105,7 +105,7 @@
    ],
    "upgrade_if": "Named audit + Coinbase trading date",
    "downgrade_if": "Usefulness-gap critique confirmed; FDV overhang",
-   "price": 1.91,
+   "price": 1.9,
    "website": "https://pearlresearch.ai/",
    "score_breakdown": {
     "team": 13,
@@ -117,7 +117,7 @@
     "social": 8
    },
    "cg_id": "pearl-2",
-   "price_updated": "2026-10-25T17:00:59-05:00",
+   "price_updated": "2026-10-25T17:20:57-05:00",
    "logo": "logos/pearl.png"
   },
   {
@@ -602,5 +602,5 @@
   }
  ],
  "snapshot_note": "CoinGecko/DexScreener snapshots 4:10 PM CT Oct 25; X sweep since 12:00 PM CT Oct 25. Times in Central",
- "prices_updated": "2026-10-25T17:00:59-05:00"
+ "prices_updated": "2026-10-25T17:20:57-05:00"
 }
