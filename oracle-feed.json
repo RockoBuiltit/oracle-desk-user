@@ -35,13 +35,13 @@
      "score": 76
     }
    ],
-   "market_cap": 22674079,
+   "market_cap": 22726576,
    "fdv": 436976923,
-   "volume_24h": 1375349,
+   "volume_24h": 1823744,
    "dex_route": "Rhea Finance (NEAR)",
    "next_milestone": "QTC lending market on RHEA (official: 'soon', undated)",
    "milestone_date": null,
-   "last_update": "2026-10-26T10:54:48-05:00",
+   "last_update": "2026-10-26T11:14:47-05:00",
    "links": [
     {
      "label": "Quantus",
@@ -58,7 +58,7 @@
    ],
    "upgrade_if": "Named-firm audit; more venues",
    "downgrade_if": "Chain halt; mining-pool centralization",
-   "price": 74.21,
+   "price": 74.43,
    "website": "https://www.quantus.com",
    "score_breakdown": {
     "team": 11,
@@ -70,7 +70,7 @@
     "social": 9
    },
    "cg_id": "quantus",
-   "price_updated": "2026-10-26T10:54:48-05:00",
+   "price_updated": "2026-10-26T11:14:47-05:00",
    "logo": "logos/quantus.png"
   },
   {
@@ -90,13 +90,13 @@
      "score": 74
     }
    ],
-   "market_cap": 658890087,
+   "market_cap": 657649482,
    "fdv": 3899151186,
-   "volume_24h": 9001513,
+   "volume_24h": 9107961,
    "dex_route": "No DEX route; CEX: SafeTrade PEARL/USDT",
    "next_milestone": "Hotcoin PEARL/USDT spot listing opened Mon 10/26 5:00 AM CT (CEX); Coinbase roadmap, no trading date",
    "milestone_date": null,
-   "last_update": "2026-10-26T10:54:48-05:00",
+   "last_update": "2026-10-26T11:14:47-05:00",
    "links": [
     {
      "label": "Pearl Research",
@@ -129,7 +129,7 @@
     "social": 8
    },
    "cg_id": "pearl-2",
-   "price_updated": "2026-10-26T10:54:48-05:00",
+   "price_updated": "2026-10-26T11:14:47-05:00",
    "logo": "logos/pearl.png"
   },
   {
@@ -578,7 +578,7 @@
   }
  ],
  "snapshot_note": "CoinGecko snapshot 8:10 AM CT Oct 26; X sweep since 8:00 PM CT Oct 25. Times in Central",
- "prices_updated": "2026-10-26T10:54:48-05:00",
+ "prices_updated": "2026-10-26T11:14:47-05:00",
  "report": {
   "updated": "2026-10-26T08:15:00-05:00",
   "intro": "THE ORACLE 8 AM digest for Mon Oct 26, 2026, with the Monday weekly summary. Overnight sweep 8 PM CT Sun to 8 AM CT Mon across AI and quantum, equal weight.",
