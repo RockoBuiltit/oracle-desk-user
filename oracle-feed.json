@@ -1,24 +1,148 @@
 {
- "generated_at": "2026-10-26T12:20:00-05:00",
+ "generated_at": "2026-10-26T16:20:00-05:00",
  "status": {
-  "state": "idle",
-  "last_scan": "2026-10-26T12:20:00-05:00",
-  "next_scan": "2026-10-26T16:00:00-05:00",
+  "state": "alert",
+  "last_scan": "2026-10-26T16:20:00-05:00",
+  "next_scan": "2026-10-26T20:00:00-05:00",
   "activity": [
-   "Noon scan: radar batch since 8 AM CT + AI and quantum keyword sweeps (equal weight) + web checks",
-   "0 HIGH PRIORITY alerts; nothing new scored 75+",
-   "New WATCH: Miden 68 (quantum privacy L1, partner mainnet live, no token yet)",
-   "New WATCH: Antseed 58 (AI inference market; Points campaign opened today; ANTS non-transferable)",
-   "Quantus team says QTC is now listed on CoinMarketCap (n13, 11:49 AM CT); no score change",
-   "GenLayer registration still closes today; no new official time given",
-   "Tool failures: none"
+   "4 PM scan: radar batch since noon + AI and quantum keyword sweeps (equal weight) + web checks",
+   "HIGH PRIORITY: Ritual (RITUAL) 83, AI L1 mainnet + token live 10/26, Coinbase listed; alert 1 of 3 today",
+   "OPEN CAMPAIGN: Ritual airdrop claim (past contributors only) at airdrop.ritualfoundation.org",
+   "Fake RITUAL tokens on Solana pump.fun and Robinhood chain; official 0x256E...8C37 on Base/BNB only",
+   "FLOP: Nov 3 testnet target unchanged (devnet post came from impostor-risk @FlopNetwork)",
+   "Rejected: Motes 30, LOWKEY 15, 4Agent 12",
+   "Tool failures: none (CoinGecko has no RITUAL listing yet; price from Coinbase)"
   ],
-  "alerts_used_today": 0,
+  "alerts_used_today": 1,
   "alert_cap": 3,
-  "x_reads_left_today": 963
+  "x_reads_left_today": 955
  },
- "alerts": [],
+ "alerts": [
+  {
+   "name": "Ritual",
+   "ticker": "RITUAL",
+   "theme": "AI",
+   "event": "Mainnet + RITUAL token live, Coinbase spot listing, community airdrop claim open",
+   "event_date": "2026-10-26T09:56:46-05:00",
+   "score": 83,
+   "breakdown": {
+    "team": 14,
+    "tech": 18,
+    "backing": 14,
+    "security": 10,
+    "tokenomics": 9,
+    "dev": 9,
+    "social": 9
+   },
+   "why_legit": "Founded 2023 by ex-Polychain partners Niraj Pant and Akilesh Potti; $25M Series A led by Archetype (2023) plus Polychain; Coinbase listed RITUAL-USD today; public testnet since June with 40M+ transactions; Zellic audit per launch release; insider tokens locked 1 year.",
+   "sources": [
+    {
+     "label": "Ritual mainnet post (@ritualnet)",
+     "url": "https://x.com/ritualnet/status/2114732978899448132"
+    },
+    {
+     "label": "Ritual Foundation launch thread",
+     "url": "https://x.com/ritualfnd/status/2114740894213759130"
+    },
+    {
+     "label": "Official tokenomics",
+     "url": "https://tokenomics.ritualfoundation.org/"
+    },
+    {
+     "label": "Coinbase Assets listing",
+     "url": "https://x.com/CoinbaseAssets/status/2114720006709616695"
+    },
+    {
+     "label": "Archetype investment",
+     "url": "https://www.archetype.fund/media/announcing-our-investment-in-ritual"
+    },
+    {
+     "label": "CoinDesk on Polychain round",
+     "url": "https://www.coindesk.com/business/2024/04/04/crypto-vc-firm-polychain-tops-up-ai-platform-rituals-25m-funding-round-with-multimillion-dollar-investment"
+    },
+    {
+     "label": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/coinbase-enables-ritual-token-spot-trading/"
+    }
+   ],
+   "risks": [
+    "Launch-day volatility: Coinbase opened ~$0.06, high $0.09, now ~$0.025",
+    "DEX liquidity is almost nil (Base Uniswap pool under $10)",
+    "Uncapped supply, ~5% yearly issuance; 82% locked with 1-year cliffs",
+    "Foundation holds admin powers at launch; executors are allowlisted TEEs",
+    "Audit report not yet linked publicly; no CoinGecko listing yet"
+   ],
+   "contract": {
+    "chain": "Base and BNB Smart Chain (bridged via LayerZero); native on Ritual chain ID 784",
+    "address": "0x256Ea35422b2F36B24aC1D66159Fe69e75918C37",
+    "verified": true
+   },
+   "impostor_warning": "Multiple fake RITUAL tokens on Solana pump.fun and Robinhood chain. Only 0x256E...8C37 on Base/BNB from tokenomics.ritualfoundation.org is official; native RITUAL has no contract. Claim only at airdrop.ritualfoundation.org.",
+   "market_cap": 44910000,
+   "at": "2026-10-26T16:20:00-05:00",
+   "sent_at": "2026-10-26T16:20:00-05:00",
+   "status": "sent"
+  }
+ ],
  "watchlist": [
+  {
+   "name": "Ritual",
+   "ticker": "RITUAL",
+   "theme": "AI",
+   "stage": "live",
+   "tier": "HIGH",
+   "score": 83,
+   "score_history": [
+    {
+     "date": "2026-10-26",
+     "score": 83
+    }
+   ],
+   "market_cap": 44910000,
+   "fdv": 249500000,
+   "volume_24h": null,
+   "dex_route": "Base Uniswap (very thin); main venue Coinbase",
+   "next_milestone": "Staker governance signals begin months 6-12 (target, undated)",
+   "milestone_date": null,
+   "last_update": "2026-10-26T16:20:00-05:00",
+   "links": [
+    {
+     "label": "Ritual",
+     "url": "https://ritual.net"
+    },
+    {
+     "label": "Tokenomics",
+     "url": "https://tokenomics.ritualfoundation.org/"
+    },
+    {
+     "label": "Airdrop claim",
+     "url": "https://airdrop.ritualfoundation.org/"
+    },
+    {
+     "label": "Mainnet post",
+     "url": "https://www.ritualfoundation.org/blog/ritual-mainnet-is-live"
+    },
+    {
+     "label": "Coinbase listing",
+     "url": "https://x.com/CoinbaseAssets/status/2114720006709616695"
+    }
+   ],
+   "upgrade_if": "Real DEX liquidity on Base/BNB; public Zellic report; CoinGecko listing",
+   "downgrade_if": "Bridge/TEE incident; heavy sell pressure; admin powers misused",
+   "price": 0.02495,
+   "website": "https://ritual.net",
+   "score_breakdown": {
+    "team": 14,
+    "tech": 18,
+    "backing": 14,
+    "security": 10,
+    "tokenomics": 9,
+    "dev": 9,
+    "social": 9
+   },
+   "logo": "logos/ritual.png",
+   "price_note": "Coinbase RITUAL-USD snapshot 4:03 PM CT; day range $0.0175-$0.09; no CoinGecko id yet; market cap computed from 1.8B unlocked"
+  },
   {
    "name": "Quantus",
    "ticker": "QTC",
@@ -511,6 +635,14 @@
  ],
  "prelaunch_updates": [
   {
+   "project": "Ritual",
+   "theme": "AI",
+   "source_type": "official",
+   "text": "OPEN CAMPAIGN (opened Mon 10/26, no end date given): RITUAL community airdrop claim. 50M RITUAL (0.5% of supply, fully unlocked) for eligible Infernet operators, Frenrug users and long-time community members; eligibility was set from past work, so nothing new can be earned. Check only at airdrop.ritualfoundation.org.",
+   "at": "2026-10-26T10:28:18-05:00",
+   "url": "https://airdrop.ritualfoundation.org/"
+  },
+  {
    "project": "Miden",
    "theme": "Quantum",
    "source_type": "official",
@@ -581,14 +713,6 @@
    "text": "Public testnet working target Tue 11/3, about 90 days; mainnet and TGE Q1 2027 (early Feb). Devnet earns nothing. Official page says no token, claim, presale or airdrop is live. @FlopNetwork is NOT official (official: @flop_labs).",
    "at": "2026-10-25T12:32:00-05:00",
    "url": "https://flop.finance/official/"
-  },
-  {
-   "project": "Amadeus Protocol",
-   "theme": "AI",
-   "source_type": "rumor",
-   "text": "TGE 'Q4' only from third-party posts; the Sept target passed and there is no official date or PRIME points conversion. Official account claims 3.18M agents (unverified).",
-   "at": "2026-10-25T12:32:00-05:00",
-   "url": "https://x.com/ama_protocol/status/2114027927121605058"
   }
  ],
  "digest": {
@@ -628,7 +752,29 @@
    }
   ]
  },
- "rejections": [],
+ "rejections": [
+  {
+   "name": "Motes",
+   "theme": "AI",
+   "score": 30,
+   "reason": "Pre-launch AI-agent NFT pushed by KOL calls; promoters disagree on the $MOTES holder share (10% vs 20%); no official site verified",
+   "at": "2026-10-26T16:20:00-05:00"
+  },
+  {
+   "name": "4Agent",
+   "theme": "AI",
+   "score": 12,
+   "reason": "Brand-new account spamming paid-mint airdrop replies; no team, docs or verifiable product",
+   "at": "2026-10-26T16:20:00-05:00"
+  },
+  {
+   "name": "LOWKEY",
+   "theme": "Quantum",
+   "score": 15,
+   "reason": "Minutes-old pump.fun coin claiming post-quantum privacy; tiny account; third-party check flags insider-held supply",
+   "at": "2026-10-26T16:20:00-05:00"
+  }
+ ],
  "deadlines": [
   {
    "project": "GenLayer",
@@ -695,9 +841,18 @@
    "approx": false,
    "url": "https://www.agent.family/campaigns/kaito-katalyst",
    "status": "upcoming"
+  },
+  {
+   "project": "Ritual",
+   "theme": "AI",
+   "title": "RITUAL airdrop claim open (no end date given)",
+   "type": "Airdrop",
+   "date": "2026-10-26T10:28:00-05:00",
+   "url": "https://airdrop.ritualfoundation.org/",
+   "status": "open"
   }
  ],
- "snapshot_note": "X sweep since 8:00 AM CT Oct 26 (noon scan). Times in Central",
+ "snapshot_note": "X sweep since 12:20 PM CT Oct 26 (4 PM scan). Times in Central",
  "prices_updated": "2026-10-26T16:02:54-05:00",
  "report": {
   "updated": "2026-10-26T08:15:00-05:00",
