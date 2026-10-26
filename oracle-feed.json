@@ -1,20 +1,21 @@
 {
- "generated_at": "2026-10-26T08:15:00-05:00",
+ "generated_at": "2026-10-26T12:20:00-05:00",
  "status": {
   "state": "idle",
-  "last_scan": "2026-10-26T08:15:00-05:00",
-  "next_scan": "2026-10-26T12:00:00-05:00",
+  "last_scan": "2026-10-26T12:20:00-05:00",
+  "next_scan": "2026-10-26T16:00:00-05:00",
   "activity": [
-   "8 AM digest: overnight sweep since 8 PM CT (radar batch + AI and quantum keyword sweeps, equal weight) + 1 web check",
-   "0 HIGH PRIORITY alerts; no new 75+ project",
-   "GenLayer official: registration closes today; FLOP Devnet 'coming days' (Hayes); Pearl on Hotcoin (CEX)",
-   "New radar: QMS Network 48 (rejected for now)",
-   "Monday weekly summary added to the report",
+   "Noon scan: radar batch since 8 AM CT + AI and quantum keyword sweeps (equal weight) + web checks",
+   "0 HIGH PRIORITY alerts; nothing new scored 75+",
+   "New WATCH: Miden 68 (quantum privacy L1, partner mainnet live, no token yet)",
+   "New WATCH: Antseed 58 (AI inference market; Points campaign opened today; ANTS non-transferable)",
+   "Quantus team says QTC is now listed on CoinMarketCap (n13, 11:49 AM CT); no score change",
+   "GenLayer registration still closes today; no new official time given",
    "Tool failures: none"
   ],
   "alerts_used_today": 0,
   "alert_cap": 3,
-  "x_reads_left_today": 982
+  "x_reads_left_today": 963
  },
  "alerts": [],
  "watchlist": [
@@ -198,6 +199,59 @@
    "logo": "logos/genlayer.png"
   },
   {
+   "name": "Miden",
+   "ticker": "MIDEN (no token yet)",
+   "theme": "Quantum",
+   "stage": "partner mainnet (invite-only)",
+   "tier": "WATCH",
+   "score": 68,
+   "score_history": [
+    {
+     "date": "2026-10-26",
+     "score": 68
+    }
+   ],
+   "market_cap": null,
+   "fdv": null,
+   "volume_24h": null,
+   "dex_route": "No token yet; any MIDEN token now is fake",
+   "next_milestone": "Public mainnet (partner mainnet is temporary and will reset); TGE undated",
+   "milestone_date": null,
+   "last_update": "2026-10-26T12:20:00-05:00",
+   "links": [
+    {
+     "label": "Partner mainnet post",
+     "url": "https://www.miden.xyz/blog/practical-privacy-goes-live-miden-partner-mainnet-opens"
+    },
+    {
+     "label": "Bread early access",
+     "url": "https://www.miden.xyz/blog/get-bread-and-step-into-miden-partner-mainnet"
+    },
+    {
+     "label": "Polygon airdrop note",
+     "url": "https://polygon.technology/blog/pol-value-accrual-post-2-introducing-the-agglayer-breakout-program"
+    },
+    {
+     "label": "Miden on X",
+     "url": "https://x.com/0xMiden"
+    }
+   ],
+   "upgrade_if": "Official token, TGE date and contract; public mainnet opens",
+   "downgrade_if": "Partner mainnet stalls or the POL-staker airdrop is dropped",
+   "price": null,
+   "website": "https://miden.xyz",
+   "score_breakdown": {
+    "team": 14,
+    "tech": 15,
+    "backing": 13,
+    "security": 7,
+    "tokenomics": 4,
+    "dev": 10,
+    "social": 5
+   },
+   "logo": "logos/miden.png"
+  },
+  {
    "name": "Quip Network",
    "ticker": "QUIP",
    "theme": "Quantum",
@@ -300,53 +354,57 @@
    "logo": "logos/flop-network.png"
   },
   {
-   "name": "Amadeus Protocol",
-   "ticker": "AMA",
+   "name": "Antseed",
+   "ticker": "ANTS",
    "theme": "AI",
-   "stage": "pre-launch",
+   "stage": "live network; token non-transferable",
    "tier": "WATCH",
-   "score": 52,
+   "score": 58,
    "score_history": [
     {
-     "date": "2026-10-25",
-     "score": 52
-    },
-    {
      "date": "2026-10-26",
-     "score": 52
+     "score": 58
     }
    ],
    "market_cap": null,
    "fdv": null,
    "volume_24h": null,
-   "dex_route": "No token yet",
-   "next_milestone": "TGE 'Q4' (third-party only; Sept target missed)",
-   "milestone_date": null,
-   "last_update": "2026-10-25T12:32:00-05:00",
+   "dex_route": "None: ANTS transfers disabled on Base; any tradable ANTS is fake",
+   "next_milestone": "Weekly ANTS claims every Thursday (next Thu 10/29); transfer unlock / TGE undated",
+   "milestone_date": "2026-10-29T00:00:00-05:00",
+   "last_update": "2026-10-26T12:20:00-05:00",
    "links": [
     {
-     "label": "Docs",
-     "url": "https://docs.ama.one/"
+     "label": "Antseed Points",
+     "url": "https://antseed.com/blog/antseed-points/"
     },
     {
-     "label": "Amadeus on X",
-     "url": "https://x.com/ama_protocol"
+     "label": "ANTS token",
+     "url": "https://antseed.com/ants-token/"
+    },
+    {
+     "label": "$2.4M raise",
+     "url": "https://antseed.com/blog/antseed-foundation-raises-2-4m/"
+    },
+    {
+     "label": "Antseed on X",
+     "url": "https://x.com/AntSeed"
     }
    ],
-   "upgrade_if": "Official dated TGE + PRIME conversion",
-   "downgrade_if": "Another missed TGE window",
+   "upgrade_if": "Transfers enabled with an official contract, published investor terms and a credible wash-trading fix",
+   "downgrade_if": "Wash-trading share stays high or transfers stay locked with no date",
    "price": null,
-   "website": "https://amafoundation.net",
+   "website": "https://antseed.com",
    "score_breakdown": {
-    "team": 7,
+    "team": 12,
     "tech": 12,
-    "backing": 6,
+    "backing": 10,
     "security": 5,
-    "tokenomics": 9,
-    "dev": 6,
-    "social": 7
+    "tokenomics": 5,
+    "dev": 9,
+    "social": 5
    },
-   "logo": "logos/amadeus-protocol.png"
+   "logo": "logos/antseed.png"
   },
   {
    "name": "TermiX",
@@ -400,9 +458,74 @@
     "social": 9
    },
    "logo": "logos/termix.png"
+  },
+  {
+   "name": "Amadeus Protocol",
+   "ticker": "AMA",
+   "theme": "AI",
+   "stage": "pre-launch",
+   "tier": "WATCH",
+   "score": 52,
+   "score_history": [
+    {
+     "date": "2026-10-25",
+     "score": 52
+    },
+    {
+     "date": "2026-10-26",
+     "score": 52
+    }
+   ],
+   "market_cap": null,
+   "fdv": null,
+   "volume_24h": null,
+   "dex_route": "No token yet",
+   "next_milestone": "TGE 'Q4' (third-party only; Sept target missed)",
+   "milestone_date": null,
+   "last_update": "2026-10-25T12:32:00-05:00",
+   "links": [
+    {
+     "label": "Docs",
+     "url": "https://docs.ama.one/"
+    },
+    {
+     "label": "Amadeus on X",
+     "url": "https://x.com/ama_protocol"
+    }
+   ],
+   "upgrade_if": "Official dated TGE + PRIME conversion",
+   "downgrade_if": "Another missed TGE window",
+   "price": null,
+   "website": "https://amafoundation.net",
+   "score_breakdown": {
+    "team": 7,
+    "tech": 12,
+    "backing": 6,
+    "security": 5,
+    "tokenomics": 9,
+    "dev": 6,
+    "social": 7
+   },
+   "logo": "logos/amadeus-protocol.png"
   }
  ],
  "prelaunch_updates": [
+  {
+   "project": "Miden",
+   "theme": "Quantum",
+   "source_type": "official",
+   "text": "Partner mainnet went live Mon 10/26 (invite-only via the Bread wallet; codes go out in waves to the early-access list, deposits capped under about $1,232; the network is temporary and will reset before public mainnet). No token yet. Polygon says Miden 'may' airdrop about 10% of supply to POL stakers (non-binding, undated).",
+   "at": "2026-10-26T10:48:00-05:00",
+   "url": "https://x.com/0xMiden/status/2114746099307053208"
+  },
+  {
+   "project": "Antseed",
+   "theme": "AI",
+   "source_type": "official",
+   "text": "OPEN CAMPAIGN (launched Mon 10/26, no end date): Antseed Points. Paid AI usage through the network earns points; each weekly epoch's ANTS pool is claimable every Thursday (buyer cap 5% of pool). Free models and 0x providers earn nothing. ANTS is still non-transferable on Base, so there is no market; fake 'Ants' tokens trade on Solana, BSC, Arc and Robinhood chain. Only antseed.com and @AntSeed.",
+   "at": "2026-10-26T09:27:00-05:00",
+   "url": "https://antseed.com/blog/antseed-points/"
+  },
   {
    "project": "GenLayer",
    "theme": "AI",
@@ -466,22 +589,6 @@
    "text": "TGE 'Q4' only from third-party posts; the Sept target passed and there is no official date or PRIME points conversion. Official account claims 3.18M agents (unverified).",
    "at": "2026-10-25T12:32:00-05:00",
    "url": "https://x.com/ama_protocol/status/2114027927121605058"
-  },
-  {
-   "project": "Quantus",
-   "theme": "Quantum",
-   "source_type": "official",
-   "text": "HeroMiners added a QTC pool (Oct 23); first QTC lending market 'soon' on RHEA (undated). No launch, milestone note only.",
-   "at": "2026-10-25T12:32:00-05:00",
-   "url": "https://x.com/QuantusNetwork/status/2113259151409197433"
-  },
-  {
-   "project": "Pearl",
-   "theme": "AI",
-   "source_type": "official",
-   "text": "PEARL custody live on BitGo (Oct 20) and added to Coinbase listing roadmap (Oct 19, no trading date). Fake 'Wrapped Pearl' tokens reported on Ethereum/Base by a third-party bridge account (unverified).",
-   "at": "2026-10-25T12:32:00-05:00",
-   "url": "https://x.com/prlnet/status/2112543578123653174"
   }
  ],
  "digest": {
@@ -490,13 +597,15 @@
    "Pearl 74 WATCH: $1.83, cap $655M, FDV $3.9B; Hotcoin CEX listing opened 5 AM CT; third-party bear case flags ~85% first-year inflation",
    "GenLayer 69: official 'Registration closes today' (no time given); Season 2 Points start today; TGE undated",
    "FLOP 62: Devnet opens 'in the coming days' per Arthur Hayes, earns no allocation; testnet target 11/3",
-   "TermiX 55 and Amadeus 52: no new dates overnight"
+   "TermiX 55 and Amadeus 52: no new dates overnight",
+   "New WATCH: Antseed 58: P2P AI inference market on Base, $2.4M round led by Spark Capital; Points program opened today, but ANTS can't be transferred yet"
   ],
   "quantum": [
    "Quantus 76 HIGH (live): $71.89 (-5% 24h), cap $21.9M, vol $1.25M; overnight posts were narrative only",
    "Quip 66: community posts cite 20k+ quantum-resistant testnet wallets (unverified); TGE undated",
    "New on radar: QMS Network 48 REJECT for now: named CTO and real EVM testnet, but miners are team-run, no audit, funding or tokenomics",
-   "Narrative: TRON PQ crypto on testnet; Algorand Falcon-1024 accounts"
+   "Narrative: TRON PQ crypto on testnet; Algorand Falcon-1024 accounts",
+   "New WATCH: Miden 68: post-quantum (STARK) privacy chain from the Polygon spinout; partner mainnet live today, invite-only; no token yet"
   ],
   "top3": [
    {
@@ -544,6 +653,17 @@
    "status": "today"
   },
   {
+   "project": "Antseed",
+   "theme": "AI",
+   "title": "Weekly ANTS points claim (every Thursday)",
+   "type": "Campaign",
+   "date": "2026-10-29T00:00:00-05:00",
+   "all_day": true,
+   "approx": false,
+   "url": "https://antseed.com/blog/antseed-points/",
+   "status": "upcoming"
+  },
+  {
    "project": "FLOP",
    "theme": "AI",
    "title": "Public testnet opens (working target, not fixed)",
@@ -577,7 +697,7 @@
    "status": "upcoming"
   }
  ],
- "snapshot_note": "CoinGecko snapshot 8:10 AM CT Oct 26; X sweep since 8:00 PM CT Oct 25. Times in Central",
+ "snapshot_note": "X sweep since 8:00 AM CT Oct 26 (noon scan). Times in Central",
  "prices_updated": "2026-10-26T12:00:46-05:00",
  "report": {
   "updated": "2026-10-26T08:15:00-05:00",
