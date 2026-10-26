@@ -32,13 +32,13 @@
      "score": 76
     }
    ],
-   "market_cap": 22009014,
+   "market_cap": 21978233,
    "fdv": 436976923,
-   "volume_24h": 1222588,
+   "volume_24h": 1223067,
    "dex_route": "Rhea Finance (NEAR)",
    "next_milestone": "QTC lending market on RHEA (official: 'soon', undated)",
    "milestone_date": null,
-   "last_update": "2026-10-26T02:07:22-05:00",
+   "last_update": "2026-10-26T02:24:58-05:00",
    "links": [
     {
      "label": "Quantus",
@@ -55,7 +55,7 @@
    ],
    "upgrade_if": "Named-firm audit; more venues",
    "downgrade_if": "Chain halt; mining-pool centralization",
-   "price": 72.2,
+   "price": 72.17,
    "website": "https://www.quantus.com",
    "score_breakdown": {
     "team": 11,
@@ -67,7 +67,7 @@
     "social": 9
    },
    "cg_id": "quantus",
-   "price_updated": "2026-10-26T02:07:22-05:00",
+   "price_updated": "2026-10-26T02:24:58-05:00",
    "logo": "logos/quantus.png"
   },
   {
@@ -83,13 +83,13 @@
      "score": 74
     }
    ],
-   "market_cap": 626934059,
+   "market_cap": 627713773,
    "fdv": 3899151186,
-   "volume_24h": 7462438,
+   "volume_24h": 7454989,
    "dex_route": "No DEX route; CEX: SafeTrade PEARL/USDT",
    "next_milestone": "Coinbase listing roadmap (added Oct 19, no trading date)",
    "milestone_date": null,
-   "last_update": "2026-10-26T02:07:22-05:00",
+   "last_update": "2026-10-26T02:24:58-05:00",
    "links": [
     {
      "label": "Pearl Research",
@@ -118,7 +118,7 @@
     "social": 8
    },
    "cg_id": "pearl-2",
-   "price_updated": "2026-10-26T02:07:22-05:00",
+   "price_updated": "2026-10-26T02:24:58-05:00",
    "logo": "logos/pearl.png"
   },
   {
@@ -667,5 +667,5 @@
   }
  ],
  "snapshot_note": "CoinGecko/DexScreener snapshots 8:10 PM CT Oct 25; X sweep since 4:00 PM CT Oct 25. Times in Central",
- "prices_updated": "2026-10-26T02:07:22-05:00"
+ "prices_updated": "2026-10-26T02:24:58-05:00"
 }
