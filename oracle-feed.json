@@ -36,13 +36,13 @@
      "score": 76
     }
    ],
-   "market_cap": 23266238,
+   "market_cap": 23236110,
    "fdv": 436976923,
-   "volume_24h": 2395007,
+   "volume_24h": 2414285,
    "dex_route": "Rhea Finance (NEAR)",
    "next_milestone": "QTC lending market on RHEA (official: 'soon', undated)",
    "milestone_date": null,
-   "last_update": "2026-10-26T12:36:31-05:00",
+   "last_update": "2026-10-26T12:51:00-05:00",
    "links": [
     {
      "label": "Quantus",
@@ -59,7 +59,7 @@
    ],
    "upgrade_if": "Named-firm audit; more venues",
    "downgrade_if": "Chain halt; mining-pool centralization",
-   "price": 76.08,
+   "price": 76.01,
    "website": "https://www.quantus.com",
    "score_breakdown": {
     "team": 11,
@@ -71,7 +71,7 @@
     "social": 9
    },
    "cg_id": "quantus",
-   "price_updated": "2026-10-26T12:36:31-05:00",
+   "price_updated": "2026-10-26T12:51:00-05:00",
    "logo": "logos/quantus.png"
   },
   {
@@ -91,13 +91,13 @@
      "score": 74
     }
    ],
-   "market_cap": 645473394,
+   "market_cap": 632210297,
    "fdv": 3899151186,
-   "volume_24h": 9147100,
+   "volume_24h": 8610823,
    "dex_route": "No DEX route; CEX: SafeTrade PEARL/USDT",
    "next_milestone": "Hotcoin PEARL/USDT spot listing opened Mon 10/26 5:00 AM CT (CEX); Coinbase roadmap, no trading date",
    "milestone_date": null,
-   "last_update": "2026-10-26T12:36:31-05:00",
+   "last_update": "2026-10-26T12:51:00-05:00",
    "links": [
     {
      "label": "Pearl Research",
@@ -118,7 +118,7 @@
    ],
    "upgrade_if": "Named audit + Coinbase trading date",
    "downgrade_if": "Usefulness-gap critique confirmed; FDV overhang",
-   "price": 1.79,
+   "price": 1.76,
    "website": "https://pearlresearch.ai/",
    "score_breakdown": {
     "team": 13,
@@ -130,7 +130,7 @@
     "social": 8
    },
    "cg_id": "pearl-2",
-   "price_updated": "2026-10-26T12:36:31-05:00",
+   "price_updated": "2026-10-26T12:51:00-05:00",
    "logo": "logos/pearl.png"
   },
   {
@@ -698,7 +698,7 @@
   }
  ],
  "snapshot_note": "X sweep since 8:00 AM CT Oct 26 (noon scan). Times in Central",
- "prices_updated": "2026-10-26T12:36:31-05:00",
+ "prices_updated": "2026-10-26T12:51:00-05:00",
  "report": {
   "updated": "2026-10-26T08:15:00-05:00",
   "intro": "THE ORACLE 8 AM digest for Mon Oct 26, 2026, with the Monday weekly summary. Overnight sweep 8 PM CT Sun to 8 AM CT Mon across AI and quantum, equal weight.",
