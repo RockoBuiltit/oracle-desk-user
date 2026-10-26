@@ -1,20 +1,21 @@
 {
- "generated_at": "2026-10-25T16:15:00-05:00",
+ "generated_at": "2026-10-25T20:11:16-05:00",
  "status": {
   "state": "idle",
-  "last_scan": "2026-10-25T16:15:00-05:00",
-  "next_scan": "2026-10-25T20:00:00-05:00",
+  "last_scan": "2026-10-25T20:11:16-05:00",
+  "next_scan": "2026-10-26T12:00:00-05:00",
   "activity": [
-   "4 PM scan: 13 official accounts checked since 12:00 PM CT + 5 keyword sweeps (AI and quantum, equal weight)",
-   "0 HIGH PRIORITY alerts (0 of 3 used today). No new project scored 75+",
-   "New WATCH: TermiX (TMT, AI) 55, pre-TGE agent marketplace backed by YZi Labs; Kaito Epoch 3 and BNB Set and Earn campaigns open",
-   "GenLayer confirmed (official): Season 1 final snapshot today Sun 10/25; Season 2 Points start Mon 10/26",
-   "New rejections: DAC Quantum Chain 47 (paid USDC loot crates, vague PQ claims), Sasona 28 (5-day-old $63k micro-cap)",
-   "Impostor warning: the TMT on CoinGecko is TopManager, not TermiX. TermiX has no token yet"
+   "8 PM scan: 28 radar accounts checked since 4:00 PM CT (2 batched X searches) + 6 AI/quantum keyword sweeps (equal weight) + 2 web sweeps",
+   "0 HIGH PRIORITY alerts (0 of 3 used today). No new project scored 75+; no new WATCH entries",
+   "CORRECTION (official): @GenLayer's Oct 21 post says GEN airdrop registration is 'Open until Monday, October 26'. Only link: airdrop.genlayer.com",
+   "Radar quiet: no new posts since 4 PM from Quantus, Quip, Pearl, GenLayer, FLOP, Amadeus. TermiX only posted install-skill replies; Asentum posted XP promos",
+   "New rejections: Aere Network 40, Mochimo 38, xCoin 35, Ptah 15, Agent Dojo 15, OPEQ 12, Quantities 10",
+   "Narrative only: Algorand reports 2,000+ Falcon-1024 accounts on mainnet; Starknet Falcon-512 gas work; Coinbase AI-agent trading news",
+   "Tool failures: none. Every X and web call succeeded on the first try"
   ],
   "alerts_used_today": 0,
   "alert_cap": 3,
-  "x_reads_left_today": 958
+  "x_reads_left_today": 989
  },
  "alerts": [],
  "watchlist": [
@@ -137,9 +138,9 @@
    "fdv": null,
    "volume_24h": null,
    "dex_route": "No token yet; any GEN token now is fake",
-   "next_milestone": "Season 1 final snapshot Sun 10/25; Season 2 Points start Mon 10/26; TGE undated",
+   "next_milestone": "Registration closes Mon 10/26 (official, no time given); Season 2 Points start Mon 10/26; TGE undated",
    "milestone_date": "2026-10-26T00:00:00-05:00",
-   "last_update": "2026-10-25T16:15:00-05:00",
+   "last_update": "2026-10-25T20:11:16-05:00",
    "links": [
     {
      "label": "GenLayer on X",
@@ -148,6 +149,10 @@
     {
      "label": "Arbitrum move",
      "url": "https://x.com/GenLayer/status/2113269144795701558"
+    },
+    {
+     "label": "Registration (official, until 10/26)",
+     "url": "https://x.com/GenLayer/status/2112934929319277002"
     },
     {
      "label": "Airdrop (official)",
@@ -360,20 +365,20 @@
  ],
  "prelaunch_updates": [
   {
+   "project": "GenLayer",
+   "theme": "AI",
+   "source_type": "official",
+   "text": "CORRECTION: the official @GenLayer post of Oct 21 says GEN airdrop registration is 'Open until Monday, October 26'. No time of day is given, so treat it as ending early Mon 10/26. Season 1 final snapshot is Sun 10/25; Season 2 Points start Mon 10/26 and carry over. Claims open on 'THE DAY' (undated): 20%, then 20% a month. Registering locks the wallet. The only link is airdrop.genlayer.com from @GenLayer, never by DM, and it never asks for a seed phrase.",
+   "at": "2026-10-25T20:11:16-05:00",
+   "url": "https://x.com/GenLayer/status/2112934929319277002"
+  },
+  {
    "project": "TermiX",
    "theme": "AI",
    "source_type": "official",
    "text": "OPEN CAMPAIGNS: (1) Kaito Katalyst Epoch 3 opened Fri 10/24, the final epoch; 0.30% of TMT supply for 450 creators, winners Mon 11/23, unlocks at TGE. (2) BNB Chain 'Set and Earn' agent tasks close Thu 11/5 (merch). (3) TermiX Points Season 1, no end date and no TMT conversion. No TGE date. Escrow contracts unaudited, upgradeable proxy. Only agent.family links from @termix_ai.",
    "at": "2026-10-25T16:15:00-05:00",
    "url": "https://www.agent.family/campaigns/kaito-katalyst"
-  },
-  {
-   "project": "GenLayer",
-   "theme": "AI",
-   "source_type": "official",
-   "text": "Confirmed on @GenLayer: Season 1 final snapshot is Sun 10/25 (today); only registered wallets can claim. Season 2 Points start Mon 10/26 and run to mainnet; points carry over. Claims open on 'THE DAY' (undated), 20% then 20%/month. Earlier 'registration closes Mon 10/26' note NOT found in official posts. Only official link is in @GenLayer posts; no DMs.",
-   "at": "2026-10-25T16:15:00-05:00",
-   "url": "https://x.com/GenLayer/status/2112934935921045716"
   },
   {
    "project": "Quip Network",
@@ -452,6 +457,55 @@
   ]
  },
  "rejections": [
+  {
+   "name": "Aere Network",
+   "theme": "Quantum",
+   "score": 40,
+   "reason": "PQ mainnet, but all 10 validators run by the foundation, no third-party audit, and no listed token or DEX route found",
+   "at": "2026-10-25T20:11:16-05:00"
+  },
+  {
+   "name": "Mochimo (MCM)",
+   "theme": "Quantum",
+   "score": 38,
+   "reason": "Not a new launch (2018 coin, PoS migration Oct 11). $1.7M cap, ~$1.6k 24h volume, one CEX (Biconomy), no DEX route",
+   "at": "2026-10-25T20:11:16-05:00"
+  },
+  {
+   "name": "xCoin (XID)",
+   "theme": "Quantum",
+   "score": 35,
+   "reason": "Paid press release (IssueWire); not on CoinGecko, no market or DEX route, no audit, team unverified",
+   "at": "2026-10-25T20:11:16-05:00"
+  },
+  {
+   "name": "Ptah (PTAH)",
+   "theme": "AI",
+   "score": 15,
+   "reason": "BSC 'Proof of AI Agent' social mining pays invites from NFT 'Loom' yield (referral scheme). ~$1.2k liquidity; recycled 2009 account with 38 posts",
+   "at": "2026-10-25T20:11:16-05:00"
+  },
+  {
+   "name": "Agent Dojo",
+   "theme": "AI",
+   "score": 15,
+   "reason": "Pre-launch rumor: account bio 'Coming soon', 5 posts, no site, team or product",
+   "at": "2026-10-25T20:11:16-05:00"
+  },
+  {
+   "name": "OPEQ (quantum Solana wallet)",
+   "theme": "Quantum",
+   "score": 12,
+   "reason": "Account created Oct 25 with 8 followers; no audit, no team",
+   "at": "2026-10-25T20:11:16-05:00"
+  },
+  {
+   "name": "Quantities (quantum SOL vaults)",
+   "theme": "Quantum",
+   "score": 10,
+   "reason": "Account created Oct 25 with 2 followers; asks users to lock SOL in unaudited vaults",
+   "at": "2026-10-25T20:11:16-05:00"
+  },
   {
    "name": "DAC Quantum Chain (DACT)",
    "theme": "Quantum",
@@ -568,6 +622,17 @@
    "status": "upcoming"
   },
   {
+   "project": "GenLayer",
+   "theme": "AI",
+   "title": "Airdrop registration closes (official; no time given)",
+   "type": "Registration",
+   "date": "2026-10-26T00:00:00-05:00",
+   "all_day": true,
+   "approx": false,
+   "url": "https://x.com/GenLayer/status/2112934929319277002",
+   "status": "upcoming"
+  },
+  {
    "project": "FLOP",
    "theme": "AI",
    "title": "Public testnet opens (working target, not fixed)",
@@ -601,6 +666,6 @@
    "status": "upcoming"
   }
  ],
- "snapshot_note": "CoinGecko/DexScreener snapshots 4:10 PM CT Oct 25; X sweep since 12:00 PM CT Oct 25. Times in Central",
+ "snapshot_note": "CoinGecko/DexScreener snapshots 8:10 PM CT Oct 25; X sweep since 4:00 PM CT Oct 25. Times in Central",
  "prices_updated": "2026-10-25T20:00:19-05:00"
 }
