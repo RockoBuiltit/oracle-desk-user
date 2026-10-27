@@ -1,19 +1,20 @@
 {
- "generated_at": "2026-10-27T08:20:00-05:00",
+ "generated_at": "2026-10-27T12:10:00-05:00",
  "status": {
   "state": "idle",
-  "last_scan": "2026-10-27T08:20:00-05:00",
-  "next_scan": "2026-10-27T12:00:00-05:00",
+  "last_scan": "2026-10-27T12:10:00-05:00",
+  "next_scan": "2026-10-27T16:00:00-05:00",
   "activity": [
-   "8 AM digest: overnight sweep of watchlist accounts + AI and quantum keyword sweeps (equal weight)",
+   "12 PM scan: watchlist + radar accounts, AI and quantum keyword sweeps (equal weight), X news, web",
    "No HIGH PRIORITY finds; alerts used today 0 of 3",
-   "GenLayer tokenomics, Quantus InstaSwap route, TermiX KOL pause logged",
-   "Rejected: ZERONYTH 18, BKC Network 20, Nonce Protocol 25",
+   "OPEN CAMPAIGN: GenLayer airdrop registration reopened 'for a few more days' (official, no end date)",
+   "NaoX (ex-Naoris, NAORIS) KuCoin listing noted: established token, CEX only, not a new launch",
+   "Rejected: Bullshot 38, Motes 22",
    "Tool failures: none"
   ],
   "alerts_used_today": 0,
   "alert_cap": 3,
-  "x_reads_left_today": 990
+  "x_reads_left_today": 976
  },
  "alerts": [
   {
@@ -233,7 +234,7 @@
    "fdv": 3899151186,
    "volume_24h": 6939880,
    "dex_route": "No DEX route; CEX: SafeTrade PEARL/USDT",
-   "next_milestone": "Hotcoin PEARL/USDT spot listing opened Mon 10/26 5:00 AM CT (CEX); Coinbase roadmap, no trading date",
+   "next_milestone": "Coinbase roadmap listing, no trading date",
    "milestone_date": null,
    "last_update": "2026-10-27T11:47:55-05:00",
    "links": [
@@ -296,9 +297,9 @@
    "fdv": null,
    "volume_24h": null,
    "dex_route": "No token yet; any GEN token now is fake",
-   "next_milestone": "Season 2 Points running (to mainnet); tokenomics paper published Tue 10/27; TGE undated",
+   "next_milestone": "Airdrop registration reopened Tue 10/27 for 'a few more days' (end date TBA); Season 2 Points running; TGE undated",
    "milestone_date": null,
-   "last_update": "2026-10-27T08:20:00-05:00",
+   "last_update": "2026-10-27T12:10:00-05:00",
    "links": [
     {
      "label": "GenLayer on X",
@@ -309,8 +310,8 @@
      "url": "https://x.com/GenLayer/status/2113269144795701558"
     },
     {
-     "label": "Registration (official, until 10/26)",
-     "url": "https://x.com/GenLayer/status/2112934929319277002"
+     "label": "Registration reopened (official, 10/27)",
+     "url": "https://x.com/GenLayer/status/2115083033258938542"
     },
     {
      "label": "Airdrop (official)",
@@ -319,10 +320,6 @@
     {
      "label": "Season 1/2 dates (official)",
      "url": "https://x.com/GenLayer/status/2112934939867873677"
-    },
-    {
-     "label": "Closes today (official, 10/26)",
-     "url": "https://x.com/GenLayer/status/2114685257987530972"
     },
     {
      "label": "GEN tokenomics",
@@ -684,6 +681,14 @@
    "project": "GenLayer",
    "theme": "AI",
    "source_type": "official",
+   "text": "OPEN CAMPAIGN (reopened Tue 10/27 9:07 AM CT): GEN airdrop registration is open again 'for a few more days'; no end date given, so treat it as closing any time. Register only at airdrop.genlayer.com (linked by @GenLayer); it never asks for a seed phrase. No GEN token exists yet: Aspecta pre-market prices are futures bets, not a token, and any GEN token trading on-chain now is fake.",
+   "at": "2026-10-27T09:07:46-05:00",
+   "url": "https://x.com/GenLayer/status/2115083033258938542"
+  },
+  {
+   "project": "GenLayer",
+   "theme": "AI",
+   "source_type": "official",
    "text": "GEN tokenomics paper published Tue 10/27 (staking, spending, issuance, governance). Still no TGE date or token contract, so any GEN token trading now is fake. Season 2 Points keep running to mainnet.",
    "at": "2026-10-27T06:15:54-05:00",
    "url": "https://x.com/GenLayer/status/2115039782719864971"
@@ -751,14 +756,6 @@
    "text": "Hotcoin opened PEARL/USDT spot trading Mon 10/26 5:00 AM CT (CEX, not a DEX route). Third-party bear case (Blockworks researcher via Coincamps): about 85% first-year inflation. Traders note a slide from about $2.55; CoinGecko shows $1.83, flat 24h, FDV $3.9B vs $655M cap.",
    "at": "2026-10-26T08:15:00-05:00",
    "url": "https://x.com/HotcoinGlobal/status/2114666060544885121"
-  },
-  {
-   "project": "GenLayer",
-   "theme": "AI",
-   "source_type": "official",
-   "text": "CORRECTION: the official @GenLayer post of Oct 21 says GEN airdrop registration is 'Open until Monday, October 26'. No time of day is given, so treat it as ending early Mon 10/26. Season 1 final snapshot is Sun 10/25; Season 2 Points start Mon 10/26 and carry over. Claims open on 'THE DAY' (undated): 20%, then 20% a month. Registering locks the wallet. The only link is airdrop.genlayer.com from @GenLayer, never by DM, and it never asks for a seed phrase.",
-   "at": "2026-10-25T20:11:16-05:00",
-   "url": "https://x.com/GenLayer/status/2112934929319277002"
   }
  ],
  "digest": {
@@ -820,6 +817,20 @@
    "score": 25,
    "reason": "AI-agent NFT mint (7,777 Genesis NFTs) with a token only \"planned\"; seen only via a small aggregator account, no official tokenomics or team verified",
    "at": "2026-10-27T08:20:00-05:00"
+  },
+  {
+   "name": "Bullshot",
+   "theme": "AI",
+   "score": 38,
+   "reason": "Memecoin launchpad with AI-agent branding; $7.7M raise is self-announced with investors named only by third parties, no token or tokenomics, and 'Bull Gems' farming spreads through referral links",
+   "at": "2026-10-27T12:10:00-05:00"
+  },
+  {
+   "name": "Motes",
+   "theme": "AI",
+   "score": 22,
+   "reason": "AI-agent NFT mint on Robinhood Chain with $MOTES only 'coming later'; official account has 3 posts, no named team, audit or independent source",
+   "at": "2026-10-27T12:10:00-05:00"
   }
  ],
  "deadlines": [
@@ -874,6 +885,16 @@
    "type": "Airdrop",
    "date": "2026-10-26T10:28:00-05:00",
    "url": "https://airdrop.ritualfoundation.org/",
+   "status": "open"
+  },
+  {
+   "project": "GenLayer",
+   "theme": "AI",
+   "title": "GEN airdrop registration reopened (closes in 'a few more days', end date TBA)",
+   "type": "Sign-up deadline",
+   "date": "2026-10-27T09:07:00-05:00",
+   "approx": true,
+   "url": "https://x.com/GenLayer/status/2115083033258938542",
    "status": "open"
   }
  ],
