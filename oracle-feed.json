@@ -1,20 +1,21 @@
 {
- "generated_at": "2026-10-27T12:10:00-05:00",
+ "generated_at": "2026-10-27T16:02:57-05:00",
  "status": {
   "state": "idle",
-  "last_scan": "2026-10-27T12:10:00-05:00",
-  "next_scan": "2026-10-27T16:00:00-05:00",
+  "last_scan": "2026-10-27T16:02:57-05:00",
+  "next_scan": "2026-10-27T20:00:00-05:00",
   "activity": [
-   "12 PM scan: watchlist + radar accounts, AI and quantum keyword sweeps (equal weight), X news, web",
+   "4 PM scan: watchlist + radar accounts, AI and quantum keyword sweeps (equal weight), X news, web",
    "No HIGH PRIORITY finds; alerts used today 0 of 3",
-   "OPEN CAMPAIGN: GenLayer airdrop registration reopened 'for a few more days' (official, no end date)",
-   "NaoX (ex-Naoris, NAORIS) KuCoin listing noted: established token, CEX only, not a new launch",
-   "Rejected: Bullshot 38, Motes 22",
+   "No new OPEN CAMPAIGNS; GenLayer registration and Ritual claim still open",
+   "Ritual claim window is 3 months per official airdrop terms (computed close ~Mon 1/26/2027)",
+   "GenLayer: ChainPatrol now watching for impostors ahead of TGE; GEN TGE still undated",
+   "Rejected: Parano1d 46, Kairos 20, AIUKI 15, Univex 12",
    "Tool failures: none"
   ],
   "alerts_used_today": 0,
   "alert_cap": 3,
-  "x_reads_left_today": 976
+  "x_reads_left_today": 962
  },
  "alerts": [
   {
@@ -105,9 +106,9 @@
    "fdv": 249500000,
    "volume_24h": null,
    "dex_route": "Base Uniswap (very thin); main venue Coinbase",
-   "next_milestone": "Staker governance signals begin months 6-12 (target, undated)",
-   "milestone_date": null,
-   "last_update": "2026-10-27T08:20:00-05:00",
+   "next_milestone": "Airdrop claim closes ~Mon 1/26/2027 (3 months from 10/26 per terms; time TBA); staker governance signals months 6-12 (undated)",
+   "milestone_date": "2027-01-26T23:59:00-06:00",
+   "last_update": "2026-10-27T16:02:57-05:00",
    "links": [
     {
      "label": "Ritual",
@@ -128,6 +129,10 @@
     {
      "label": "Coinbase listing",
      "url": "https://x.com/CoinbaseAssets/status/2114720006709616695"
+    },
+    {
+     "label": "Airdrop terms (3-month claim window)",
+     "url": "https://airdrop.ritualfoundation.org/terms"
     }
    ],
    "upgrade_if": "Real DEX liquidity on Base/BNB; public Zellic report; CoinGecko listing",
@@ -678,6 +683,22 @@
  ],
  "prelaunch_updates": [
   {
+   "project": "Ritual",
+   "theme": "AI",
+   "source_type": "official",
+   "text": "OPEN CAMPAIGN still open: official airdrop terms say the claim window stays open 3 months from the announced start (claim opened Mon 10/26), so it closes around Mon 1/26/2027 (computed from the terms; no exact date announced). Claim only at airdrop.ritualfoundation.org; look-alike domains such as airdrop.ritualfoundation.xyz are not official.",
+   "at": "2026-10-27T16:02:57-05:00",
+   "url": "https://airdrop.ritualfoundation.org/terms"
+  },
+  {
+   "project": "GenLayer",
+   "theme": "AI",
+   "source_type": "official",
+   "text": "@GenLayer (12:49 PM CT): 'Scammers don't wait for TGE.' ChainPatrol is now watching for fake accounts, look-alike domains and impersonators before launch. Still no GEN TGE date or contract; any GEN token trading now is fake.",
+   "at": "2026-10-27T12:49:52-05:00",
+   "url": "https://x.com/GenLayer/status/2115138928328216767"
+  },
+  {
    "project": "GenLayer",
    "theme": "AI",
    "source_type": "official",
@@ -740,22 +761,6 @@
    "text": "@GenLayer at 6:47 AM CT Mon 10/26: 'Registration closes today.' Still no time of day, so treat it as closing any hour. Only airdrop.genlayer.com from @GenLayer; it never asks for a seed phrase. Any GEN token trading now is fake.",
    "at": "2026-10-26T08:15:00-05:00",
    "url": "https://x.com/GenLayer/status/2114685257987530972"
-  },
-  {
-   "project": "FLOP",
-   "theme": "AI",
-   "source_type": "founder",
-   "text": "Arthur Hayes (Oct 26, 2:17 AM CT): Devnet opens 'in the coming days' for miners, validators and agents. Devnet participation does NOT count toward any token allocation; testnet/airdrop comes after. @flop_labs quoted it: 'Devnet coming very soon.' Public testnet target still Tue 11/3.",
-   "at": "2026-10-26T08:15:00-05:00",
-   "url": "https://x.com/CryptoHayes/status/2114617436398100654"
-  },
-  {
-   "project": "Pearl",
-   "theme": "AI",
-   "source_type": "official",
-   "text": "Hotcoin opened PEARL/USDT spot trading Mon 10/26 5:00 AM CT (CEX, not a DEX route). Third-party bear case (Blockworks researcher via Coincamps): about 85% first-year inflation. Traders note a slide from about $2.55; CoinGecko shows $1.83, flat 24h, FDV $3.9B vs $655M cap.",
-   "at": "2026-10-26T08:15:00-05:00",
-   "url": "https://x.com/HotcoinGlobal/status/2114666060544885121"
   }
  ],
  "digest": {
@@ -831,6 +836,34 @@
    "score": 22,
    "reason": "AI-agent NFT mint on Robinhood Chain with $MOTES only 'coming later'; official account has 3 posts, no named team, audit or independent source",
    "at": "2026-10-27T12:10:00-05:00"
+  },
+  {
+   "name": "Parano1d (NOID)",
+   "theme": "Quantum",
+   "score": 46,
+   "reason": "Live open-source PoW post-quantum L1 (mainnet 8/21) but anonymous solo dev, no third-party audit of its PQ proofs, and NOID trades only on SafeTrade (CEX, ~$49K 24h vol); no DEX route until native DEX upgrade est. Wed 11/4 (block 279,370)",
+   "at": "2026-10-27T16:02:57-05:00"
+  },
+  {
+   "name": "Kairos (KAIROS)",
+   "theme": "Quantum",
+   "score": 20,
+   "reason": "Fork of Parano1d launched as a pump.fun token; account created Oct 20 with 157 followers, no named team or audit",
+   "at": "2026-10-27T16:02:57-05:00"
+  },
+  {
+   "name": "AIUKI",
+   "theme": "AI",
+   "score": 15,
+   "reason": "Agent-only NFT mint on BNB with tokens only 'planned'; account created Oct 26 with 3 followers, surge.sh site, no team",
+   "at": "2026-10-27T16:02:57-05:00"
+  },
+  {
+   "name": "Univex Network (UVX)",
+   "theme": "Quantum",
+   "score": 12,
+   "reason": "'AI + PQC L1' presale starting Wed 10/28 with referral mining, KYC 'asset migration', 12B supply, several domains and Telegram-only X link; no named team, audit or independent source",
+   "at": "2026-10-27T16:02:57-05:00"
   }
  ],
  "deadlines": [
@@ -881,11 +914,13 @@
   {
    "project": "Ritual",
    "theme": "AI",
-   "title": "RITUAL airdrop claim open (no end date given)",
+   "title": "RITUAL airdrop claim open (3-month window per terms; closes ~Mon 1/26/2027)",
    "type": "Airdrop",
    "date": "2026-10-26T10:28:00-05:00",
-   "url": "https://airdrop.ritualfoundation.org/",
-   "status": "open"
+   "url": "https://airdrop.ritualfoundation.org/terms",
+   "status": "open",
+   "date_end": "2027-01-26T23:59:00-06:00",
+   "approx": true
   },
   {
    "project": "GenLayer",
@@ -898,7 +933,7 @@
    "status": "open"
   }
  ],
- "snapshot_note": "X sweep since 8:00 PM CT Oct 26 (8 AM digest). Times in Central",
+ "snapshot_note": "X sweep since 12:10 PM CT Oct 27 (noon scan). Times in Central",
  "prices_updated": "2026-10-27T15:49:28-05:00",
  "report": {
   "updated": "2026-10-27T08:20:00-05:00",
