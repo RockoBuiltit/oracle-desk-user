@@ -1,21 +1,20 @@
 {
- "generated_at": "2026-10-26T16:20:00-05:00",
+ "generated_at": "2026-10-26T20:05:00-05:00",
  "status": {
-  "state": "alert",
-  "last_scan": "2026-10-26T16:20:00-05:00",
-  "next_scan": "2026-10-26T20:00:00-05:00",
+  "state": "quiet",
+  "last_scan": "2026-10-26T20:05:00-05:00",
+  "next_scan": "2026-10-27T12:00:00-05:00",
   "activity": [
-   "4 PM scan: radar batch since noon + AI and quantum keyword sweeps (equal weight) + web checks",
-   "HIGH PRIORITY: Ritual (RITUAL) 83, AI L1 mainnet + token live 10/26, Coinbase listed; alert 1 of 3 today",
-   "OPEN CAMPAIGN: Ritual airdrop claim (past contributors only) at airdrop.ritualfoundation.org",
-   "Fake RITUAL tokens on Solana pump.fun and Robinhood chain; official 0x256E...8C37 on Base/BNB only",
-   "FLOP: Nov 3 testnet target unchanged (devnet post came from impostor-risk @FlopNetwork)",
-   "Rejected: Motes 30, LOWKEY 15, 4Agent 12",
-   "Tool failures: none (CoinGecko has no RITUAL listing yet; price from Coinbase)"
+   "8 PM scan: radar batch since 4 PM + AI and quantum keyword sweeps (equal weight) + X news check",
+   "No new HIGH PRIORITY finds; alerts used today stay at 1 of 3 (Ritual)",
+   "Ritual: community chatter on 'Not eligible' claim results; claim stays at airdrop.ritualfoundation.org only",
+   "Quip Network: podcast appearance on quantum attack scenarios, no new dates",
+   "Rejected: SYNAPE 14, AIUKI 10, DeepKey (DPKY) 18",
+   "Tool failures: none"
   ],
   "alerts_used_today": 1,
   "alert_cap": 3,
-  "x_reads_left_today": 955
+  "x_reads_left_today": 996
  },
  "alerts": [
   {
@@ -753,6 +752,27 @@
   ]
  },
  "rejections": [
+  {
+   "name": "SYNAPE (Synth Ape Syndicate)",
+   "theme": "AI",
+   "score": 14,
+   "reason": "AI-agent NFT mint with a 'planned' token airdrop tied to holding 2+ NFTs; no official site or team verified",
+   "at": "2026-10-26T20:05:00-05:00"
+  },
+  {
+   "name": "AIUKI",
+   "theme": "AI",
+   "score": 10,
+   "reason": "Brand-new account (1 follower) promising a 10,000-token airdrop per NFT with 'details to follow'",
+   "at": "2026-10-26T20:05:00-05:00"
+  },
+  {
+   "name": "DeepKey (DPKY)",
+   "theme": "Quantum",
+   "score": 18,
+   "reason": "Token launched on a memecoin launchpad (flap.sh) with security-themed claims and no audit, team or code verified",
+   "at": "2026-10-26T20:05:00-05:00"
+  },
   {
    "name": "Motes",
    "theme": "AI",
