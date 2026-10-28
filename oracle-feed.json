@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-10-27T20:10:00-05:00",
+ "generated_at": "2026-10-28T08:15:00-05:00",
  "status": {
   "state": "idle",
-  "last_scan": "2026-10-27T20:10:00-05:00",
+  "last_scan": "2026-10-28T08:15:00-05:00",
   "next_scan": "2026-10-28T12:00:00-05:00",
   "activity": [
-   "8 PM scan: watchlist + radar accounts, AI and quantum keyword sweeps (equal weight), X news, DexScreener",
+   "8 AM digest: overnight sweep 8 PM CT Tue to 8 AM CT Wed, watchlist + radar accounts, AI and quantum keyword sweeps (equal weight), X news, CoinGecko, Coinbase",
    "No HIGH PRIORITY finds; alerts used today 0 of 3",
-   "No new OPEN CAMPAIGNS; GenLayer registration and Ritual claim still open",
-   "Quiet evening from official accounts; Antseed promoted ANTS earning (weekly claim Thu 10/29)",
-   "Context only: Starknet community poll backed researching an independent post-quantum L1 (draft whitepaper due November); no new token",
-   "Rejected: Salvor 24, KEPT 10",
+   "No new OPEN CAMPAIGNS; GenLayer registration, Ritual claim, Antseed Points, Quip Points still open",
+   "TermiX posted a scam alert: impostors soliciting investments; TermiX runs no fundraising",
+   "Antseed weekly ANTS claim due Thu 10/29 (within 24 hours)",
+   "Rejected: Asentum 46, GangLink 10",
    "Tool failures: none"
   ],
   "alerts_used_today": 0,
   "alert_cap": 3,
-  "x_reads_left_today": 994
+  "x_reads_left_today": 986
  },
  "alerts": [
   {
@@ -100,15 +100,19 @@
     {
      "date": "2026-10-27",
      "score": 83
+    },
+    {
+     "date": "2026-10-28",
+     "score": 83
     }
    ],
-   "market_cap": 39060000,
+   "market_cap": 37440000,
    "fdv": 249500000,
    "volume_24h": null,
    "dex_route": "Base Uniswap (very thin); main venue Coinbase",
    "next_milestone": "Airdrop claim closes ~Mon 1/26/2027 (3 months from 10/26 per terms; time TBA); staker governance signals months 6-12 (undated)",
    "milestone_date": "2027-01-26T23:59:00-06:00",
-   "last_update": "2026-10-27T16:02:57-05:00",
+   "last_update": "2026-10-28T08:15:00-05:00",
    "links": [
     {
      "label": "Ritual",
@@ -137,7 +141,7 @@
    ],
    "upgrade_if": "Real DEX liquidity on Base/BNB; public Zellic report; CoinGecko listing",
    "downgrade_if": "Bridge/TEE incident; heavy sell pressure; admin powers misused",
-   "price": 0.0217,
+   "price": 0.0208,
    "website": "https://ritual.net",
    "score_breakdown": {
     "team": 14,
@@ -149,7 +153,7 @@
     "social": 9
    },
    "logo": "logos/ritual.png",
-   "price_note": "Coinbase RITUAL-USD snapshot 8:13 AM CT Oct 27; 24h range $0.0175-$0.09 on 37.9M RITUAL volume; no CoinGecko id yet; market cap computed from 1.8B unlocked"
+   "price_note": "Coinbase RITUAL-USD snapshot 8:08 AM CT Oct 28; 24h range $0.020-$0.0241 on 10.4M RITUAL volume; no CoinGecko id yet; market cap computed from 1.8B unlocked"
   },
   {
    "name": "Quantus",
@@ -169,6 +173,10 @@
     },
     {
      "date": "2026-10-27",
+     "score": 76
+    },
+    {
+     "date": "2026-10-28",
      "score": 76
     }
    ],
@@ -233,6 +241,10 @@
     {
      "date": "2026-10-27",
      "score": 74
+    },
+    {
+     "date": "2026-10-28",
+     "score": 74
     }
    ],
    "market_cap": 653819563,
@@ -295,6 +307,10 @@
     },
     {
      "date": "2026-10-27",
+     "score": 69
+    },
+    {
+     "date": "2026-10-28",
      "score": 69
     }
    ],
@@ -361,6 +377,10 @@
     {
      "date": "2026-10-27",
      "score": 68
+    },
+    {
+     "date": "2026-10-28",
+     "score": 68
     }
    ],
    "market_cap": null,
@@ -422,6 +442,10 @@
     {
      "date": "2026-10-27",
      "score": 66
+    },
+    {
+     "date": "2026-10-28",
+     "score": 66
     }
    ],
    "market_cap": null,
@@ -475,6 +499,10 @@
     {
      "date": "2026-10-27",
      "score": 62
+    },
+    {
+     "date": "2026-10-28",
+     "score": 62
     }
    ],
    "market_cap": null,
@@ -527,6 +555,10 @@
     },
     {
      "date": "2026-10-27",
+     "score": 58
+    },
+    {
+     "date": "2026-10-28",
      "score": 58
     }
    ],
@@ -589,6 +621,10 @@
     {
      "date": "2026-10-27",
      "score": 55
+    },
+    {
+     "date": "2026-10-28",
+     "score": 55
     }
    ],
    "market_cap": null,
@@ -597,7 +633,7 @@
    "dex_route": "No token yet; CoinGecko 'TMT' is unrelated (TopManager)",
    "next_milestone": "BNB Chain Set and Earn tasks close Thu 11/5; Kaito Katalyst winners Mon 11/23; TGE undated",
    "milestone_date": "2026-11-05T00:00:00-06:00",
-   "last_update": "2026-10-27T08:20:00-05:00",
+   "last_update": "2026-10-28T08:15:00-05:00",
    "links": [
     {
      "label": "Kaito campaign (official)",
@@ -646,6 +682,10 @@
     {
      "date": "2026-10-27",
      "score": 52
+    },
+    {
+     "date": "2026-10-28",
+     "score": 52
     }
    ],
    "market_cap": null,
@@ -682,6 +722,14 @@
   }
  ],
  "prelaunch_updates": [
+  {
+   "project": "TermiX",
+   "theme": "AI",
+   "source_type": "official",
+   "text": "SCAM ALERT from @termix_ai (3:56 AM CT Wed 10/28): people impersonating the TermiX team are soliciting investments. TermiX is not running any community fundraising; treat any such request as a scam. TGE still undated.",
+   "at": "2026-10-28T03:56:08-05:00",
+   "url": "https://x.com/termix_ai/status/2115366997957755341"
+  },
   {
    "project": "Ritual",
    "theme": "AI",
@@ -753,131 +801,59 @@
    "text": "OPEN CAMPAIGN (launched Mon 10/26, no end date): Antseed Points. Paid AI usage through the network earns points; each weekly epoch's ANTS pool is claimable every Thursday (buyer cap 5% of pool). Free models and 0x providers earn nothing. ANTS is still non-transferable on Base, so there is no market; fake 'Ants' tokens trade on Solana, BSC, Arc and Robinhood chain. Only antseed.com and @AntSeed.",
    "at": "2026-10-26T09:27:00-05:00",
    "url": "https://antseed.com/blog/antseed-points/"
-  },
-  {
-   "project": "GenLayer",
-   "theme": "AI",
-   "source_type": "official",
-   "text": "@GenLayer at 6:47 AM CT Mon 10/26: 'Registration closes today.' Still no time of day, so treat it as closing any hour. Only airdrop.genlayer.com from @GenLayer; it never asks for a seed phrase. Any GEN token trading now is fake.",
-   "at": "2026-10-26T08:15:00-05:00",
-   "url": "https://x.com/GenLayer/status/2114685257987530972"
   }
  ],
  "digest": {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "ai": [
-   "Ritual 83 HIGH (live): Coinbase $0.0217, 24h range $0.0175-$0.09 (thin, volatile); airdrop claim still open at airdrop.ritualfoundation.org only",
-   "Pearl 74 WATCH: $1.71 (-5.6% 24h), cap $618M; SafeTrade PEARL/USDT ~$2.27M 24h volume; nothing new from the team",
-   "GenLayer 69: GEN tokenomics paper published (official); registration window closed Mon 10/26; TGE still undated",
-   "TermiX 55: KOL Posts rewards paused; Quant Agent with 10x TP rewards live; claims No.1 BNB agent protocol by revenue (DefiLlama, unverified by me)",
-   "FLOP 62: no devnet date yet; look-alike account @FlopNetwork (4 followers, made Oct 20) is pushing the airdrop; only @flop_labs is official",
-   "Antseed 58 and Amadeus 52: no new dates; Antseed weekly claim Thu 10/29"
+   "Ritual 83 HIGH (live): Coinbase $0.0208, 24h range $0.020-$0.0241, volume cooling to 10.4M RITUAL; claim only at airdrop.ritualfoundation.org (closes ~Mon 1/26/2027)",
+   "Pearl 74 WATCH: $1.82 (+5.7% 24h), cap $651M, vol $10.8M; near-miss, still needs a named audit and a dated Coinbase listing",
+   "GenLayer 69: staking thread explains validators lock GEN to judge cases; registration reopened 10/27 still open (end date TBA); no TGE date",
+   "TermiX 55: official scam alert, impostors asking for investments; TermiX does no fundraising",
+   "Antseed 58: weekly ANTS claim Thu 10/29 (due within 24 hours); FLOP 62 no devnet date yet; Amadeus 52 quiet"
   ],
   "quantum": [
-   "Quantus 76 HIGH (live): $74.52 (+3.8% 24h), cap $22.9M, vol $1.88M; native QTC now on InstaSwap via NEAR Intents",
-   "Miden 68: partner mainnet invite waves continue; Bread wallet answering questions; no token",
-   "Quip 66: community claims ~$900k in Quip testnet wallets (unverified); lots of reply-farm posts; TGE undated",
-   "Narrative: TRON PQ testnet, Stellar Bell Protocol 30 proposes post-quantum features, US GAO report on quantum readiness",
-   "Rejected: ZERONYTH 18, BKC Network 20 (brand-new tiny accounts)"
+   "Quantus 76 HIGH (live): $75.94 (+2.1% 24h), cap $23.5M, vol $1.56M; DEX on NEAR (Rhea, NEAR Intents, InstaSwap)",
+   "Quip 66: Quantum Alliance recap (with Quantus and 7 others); Quip Points still open; TGE undated",
+   "Miden 68: quiet overnight; partner mainnet invite-only, no token",
+   "Narrative: Starknet post-quantum L1 research (draft whitepaper due November)",
+   "Rejected: Asentum 46 (anonymous team, XP-farm spam), GangLink 10"
   ],
   "top3": [
    {
     "name": "GenLayer",
-    "why": "Tokenomics paper just dropped. Read supply, issuance and unlocks at the official portal; still no TGE date, so any GEN token is fake.",
-    "url": "https://portal.genlayer.foundation/genesis/tokenomics/",
+    "why": "Registration reopened Tue 10/27 for 'a few more days' and can close any time. Read the tokenomics and staking thread; register only at airdrop.genlayer.com.",
+    "url": "https://genlayer.com",
     "logo": "logos/genlayer.png"
    },
    {
-    "name": "Quantus",
-    "why": "Only quantum HIGH (76). New InstaSwap route on NEAR adds DEX access; check liquidity depth before trusting price.",
-    "url": "https://www.quantus.com",
-    "logo": "logos/quantus.png"
+    "name": "Antseed",
+    "why": "Weekly ANTS claim is Thu 10/29. Check how points convert and that ANTS is still non-transferable; tradable 'Ants' tokens elsewhere are fake.",
+    "url": "https://antseed.com",
+    "logo": "logos/antseed.png"
    },
    {
-    "name": "Ritual",
-    "why": "Day 2 after mainnet: price fell from ~$0.06 open to $0.0217 on Coinbase. Watch for real DEX liquidity and a public Zellic report.",
-    "url": "https://ritual.net",
-    "logo": "logos/ritual.png"
+    "name": "Pearl",
+    "why": "Up 5.7% to $1.82 on $10.8M volume, one point under HIGH. Look for a named audit and a dated Coinbase listing.",
+    "url": "https://pearlresearch.ai/",
+    "logo": "logos/pearl.png"
    }
   ]
  },
  "rejections": [
   {
-   "name": "ZERONYTH Network",
-   "theme": "Quantum",
-   "score": 18,
-   "reason": "Account created Oct 13 with 11 followers; quantum-resistant L1 testnet offering points, but no named team, audit, funding or code verified",
-   "at": "2026-10-27T08:20:00-05:00"
-  },
-  {
-   "name": "BKC Network",
-   "theme": "Quantum",
-   "score": 20,
-   "reason": "Account created Oct 9 with 3 followers; self-published ML-DSA testnet benchmark only, no team, audit or independent source",
-   "at": "2026-10-27T08:20:00-05:00"
-  },
-  {
-   "name": "Nonce Protocol",
-   "theme": "AI",
-   "score": 25,
-   "reason": "AI-agent NFT mint (7,777 Genesis NFTs) with a token only \"planned\"; seen only via a small aggregator account, no official tokenomics or team verified",
-   "at": "2026-10-27T08:20:00-05:00"
-  },
-  {
-   "name": "Bullshot",
-   "theme": "AI",
-   "score": 38,
-   "reason": "Memecoin launchpad with AI-agent branding; $7.7M raise is self-announced with investors named only by third parties, no token or tokenomics, and 'Bull Gems' farming spreads through referral links",
-   "at": "2026-10-27T12:10:00-05:00"
-  },
-  {
-   "name": "Motes",
-   "theme": "AI",
-   "score": 22,
-   "reason": "AI-agent NFT mint on Robinhood Chain with $MOTES only 'coming later'; official account has 3 posts, no named team, audit or independent source",
-   "at": "2026-10-27T12:10:00-05:00"
-  },
-  {
-   "name": "Parano1d (NOID)",
+   "name": "Asentum (ASE)",
    "theme": "Quantum",
    "score": 46,
-   "reason": "Live open-source PoW post-quantum L1 (mainnet 8/21) but anonymous solo dev, no third-party audit of its PQ proofs, and NOID trades only on SafeTrade (CEX, ~$49K 24h vol); no DEX route until native DEX upgrade est. Wed 11/4 (block 279,370)",
-   "at": "2026-10-27T16:02:57-05:00"
+   "reason": "Post-quantum L1 with a real incentivized testnet and ASE on Uniswap/MEXC, but the team is still anonymous and chain code not public; overnight wave of identical 'Farming the @asentum airdrop' posts from tiny accounts is XP farming, not adoption",
+   "at": "2026-10-28T08:15:00-05:00"
   },
   {
-   "name": "Kairos (KAIROS)",
-   "theme": "Quantum",
-   "score": 20,
-   "reason": "Fork of Parano1d launched as a pump.fun token; account created Oct 20 with 157 followers, no named team or audit",
-   "at": "2026-10-27T16:02:57-05:00"
-  },
-  {
-   "name": "AIUKI",
+   "name": "GangLink (GANGL)",
    "theme": "AI",
-   "score": 15,
-   "reason": "Agent-only NFT mint on BNB with tokens only 'planned'; account created Oct 26 with 3 followers, surge.sh site, no team",
-   "at": "2026-10-27T16:02:57-05:00"
-  },
-  {
-   "name": "Univex Network (UVX)",
-   "theme": "Quantum",
-   "score": 12,
-   "reason": "'AI + PQC L1' presale starting Wed 10/28 with referral mining, KYC 'asset migration', 12B supply, several domains and Telegram-only X link; no named team, audit or independent source",
-   "at": "2026-10-27T16:02:57-05:00"
-  },
-  {
-   "name": "Salvor (SALVOR)",
-   "theme": "AI",
-   "score": 24,
-   "reason": "Bags/Meteora Solana token (pool since Sep 2026, ~$0.55M FDV, ~$69K liquidity) claiming an 'AGI' path; single-developer GitHub, no named backers, audit or independent coverage; CoinGecko listing alone is not validation",
-   "at": "2026-10-27T20:10:00-05:00"
-  },
-  {
-   "name": "KEPT",
-   "theme": "Quantum",
    "score": 10,
-   "reason": "Brand-new launchpad account (0 followers, 3 posts) using 'post-quantum ML-DSA-65' as a marketing hook; no team, audit, token details or independent source",
-   "at": "2026-10-27T20:10:00-05:00"
+   "reason": "MCP server token for gang.fun; account created Tue 10/27 with 16 followers and 4 posts, no team, audit or independent source",
+   "at": "2026-10-28T08:15:00-05:00"
   }
  ],
  "deadlines": [
@@ -947,31 +923,31 @@
    "status": "open"
   }
  ],
- "snapshot_note": "X sweep since 4:00 PM CT Oct 27 (4 PM scan). Times in Central",
+ "snapshot_note": "CoinGecko snapshot 8:08 AM CT Oct 28; Coinbase RITUAL-USD 8:08 AM CT; X sweep since 8:00 PM CT Oct 27. Times in Central",
  "prices_updated": "2026-10-28T07:46:07-05:00",
  "report": {
-  "updated": "2026-10-27T08:20:00-05:00",
-  "intro": "THE ORACLE 8 AM digest for Tue Oct 27, 2026. Overnight sweep 8 PM CT Mon to 8 AM CT Tue across AI and quantum, equal weight.",
-  "snapshots": "CoinGecko snapshot 8:13 AM CT Oct 27; Coinbase RITUAL-USD 8:13 AM CT; X sweep since 8:00 PM CT Oct 26. Times in Central.",
+  "updated": "2026-10-28T08:15:00-05:00",
+  "intro": "THE ORACLE 8 AM digest for Wed Oct 28, 2026. Overnight sweep 8 PM CT Tue to 8 AM CT Wed across AI and quantum, equal weight.",
+  "snapshots": "CoinGecko snapshot 8:08 AM CT Oct 28; Coinbase RITUAL-USD 8:08 AM CT; X sweep since 8:00 PM CT Oct 27. Times in Central.",
   "disclaimer": "THE ORACLE never touches keys, funds or sign-ups. Scores are research signals only.",
   "takeaways": [
    "0 HIGH PRIORITY alerts overnight; no new project scored 75+",
-   "GenLayer published GEN tokenomics; TGE still undated",
-   "Quantus: native QTC live on InstaSwap via NEAR Intents; +3.8% to $74.52",
-   "Ritual slid to $0.0217 on Coinbase (24h range $0.0175-$0.09)",
-   "Pearl -5.6% to $1.71",
-   "TermiX paused its KOL Posts rewards",
-   "FLOP look-alike account @FlopNetwork flagged",
+   "Quiet night: no new launches, dates or campaigns from watchlist accounts",
+   "Pearl +5.7% to $1.82 on $10.8M volume",
+   "Quantus +2.1% to $75.94",
+   "Ritual steadier at $0.0208 on Coinbase (24h range $0.020-$0.0241)",
+   "TermiX scam alert: impostors soliciting investments",
+   "Due within 24 hours: Antseed weekly ANTS claim Thu 10/29",
    "Near-miss: Pearl 74 still needs a named audit and a dated Coinbase listing",
-   "Open campaigns: Ritual claim (no end date), Antseed Points (claims Thu 10/29), GenLayer Season 2 Points, Quip Points, TermiX Kaito Katalyst (to Mon 11/23)",
-   "Rejected: ZERONYTH 18, BKC Network 20, Nonce Protocol 25"
+   "Open campaigns: GenLayer registration (end TBA), Ritual claim (to ~Mon 1/26/2027), Antseed Points (claims Thu 10/29), GenLayer Season 2 Points, Quip Points, TermiX Kaito Katalyst (to Mon 11/23)",
+   "Rejected: Asentum 46, GangLink 10"
   ],
   "prelaunch": [
    {
     "project": "GenLayer",
     "ticker": "GEN",
     "theme": "AI",
-    "coming": "Season 2 Points running (to mainnet); tokenomics paper published Tue 10/27; TGE undated",
+    "coming": "Airdrop registration reopened Tue 10/27 (end TBA); Season 2 Points running; TGE undated",
     "when": "undated",
     "score": 69,
     "why": "Dated TGE + official contract + audit"
@@ -1043,8 +1019,8 @@
     "theme": "AI",
     "category": "AI L1",
     "tier": "HIGH",
-    "price": 0.0217,
-    "market_cap": 39060000,
+    "price": 0.0208,
+    "market_cap": 37440000,
     "volume_24h": null,
     "score": 83,
     "dex": "Base Uniswap (very thin)"
@@ -1055,9 +1031,9 @@
     "theme": "Quantum",
     "category": "PQ L1",
     "tier": "HIGH",
-    "price": 74.52,
-    "market_cap": 22886297,
-    "volume_24h": 1879955,
+    "price": 75.94,
+    "market_cap": 23452173,
+    "volume_24h": 1559313,
     "score": 76,
     "dex": "NEAR: Rhea Finance, NEAR Intents, InstaSwap"
    },
@@ -1067,9 +1043,9 @@
     "theme": "AI",
     "category": "AI L1",
     "tier": "WATCH",
-    "price": 1.71,
-    "market_cap": 618486298,
-    "volume_24h": 7189924,
+    "price": 1.82,
+    "market_cap": 651329900,
+    "volume_24h": 10824110,
     "score": 74,
     "dex": ""
    }
@@ -1092,17 +1068,23 @@
     "theme": "AI",
     "fakes": "Tradable \"Ants\" tokens on Solana, BSC, Arc, Robinhood chain",
     "official": "@AntSeed, antseed.com"
+   },
+   {
+    "project": "TermiX",
+    "theme": "AI",
+    "fakes": "Anyone claiming to be TermiX team asking for investments",
+    "official": "@termix_ai, termix.ai"
    }
   ],
-  "safetrade_source": "CoinGecko safe_trade tickers, 8:13 AM CT Oct 27",
+  "safetrade_source": "CoinGecko markets 8:08 AM CT Oct 28 (SafeTrade pair volumes from Oct 27 tickers)",
   "safetrade": [
    {
     "project": "Pearl",
     "ticker": "PEARL",
     "theme": "AI",
     "pair": "PEARL/USDT",
-    "price": 1.72,
-    "market_cap": 618486298,
+    "price": 1.82,
+    "market_cap": 651329900,
     "volume_24h": 2270895,
     "score": 74,
     "tier": "WATCH",
@@ -1114,8 +1096,8 @@
     "ticker": "QTC",
     "theme": "Quantum",
     "pair": "QUANTUS/USDT",
-    "price": 74.42,
-    "market_cap": 22886297,
+    "price": 75.94,
+    "market_cap": 23452173,
     "volume_24h": 140612,
     "score": 76,
     "tier": "HIGH",
@@ -1127,37 +1109,42 @@
    {
     "section": "tokens",
     "theme": "AI",
-    "text": "Ritual price is a Coinbase snapshot; launch-day range was very wide, so no score change on price alone."
+    "text": "Ritual price is a Coinbase snapshot; volume is cooling after launch, so no score change on price alone."
+   },
+   {
+    "section": "impostors",
+    "theme": "AI",
+    "text": "TermiX says it runs no community fundraising; any investment request in its name is a scam."
    }
   ],
   "sources": [
    {
-    "title": "GenLayer: GEN tokenomics live",
-    "url": "https://x.com/GenLayer/status/2115039782719864971"
+    "title": "TermiX scam alert",
+    "url": "https://x.com/termix_ai/status/2115366997957755341"
    },
    {
-    "title": "Quantus: native QTC on InstaSwap",
-    "url": "https://x.com/QuantusNetwork/status/2115024388907311609"
+    "title": "GenLayer staking thread",
+    "url": "https://x.com/GenLayer/status/2115377660151177393"
    },
    {
-    "title": "TermiX: KOL Posts paused",
-    "url": "https://x.com/termix_ai/status/2114978001406615823"
+    "title": "GenLayer registration reopened",
+    "url": "https://x.com/GenLayer/status/2115083033258938542"
    },
    {
-    "title": "TermiX: Quant Agent live",
-    "url": "https://x.com/termix_ai/status/2114906484165452283"
+    "title": "Quip: Quantum Alliance recap",
+    "url": "https://x.com/quipnetwork/status/2115150513968955638"
    },
    {
-    "title": "FLOP look-alike account post",
-    "url": "https://x.com/FlopNetwork/status/2114892338392891627"
+    "title": "Quantus: last week in quantum",
+    "url": "https://x.com/QuantusNetwork/status/2115398184570884493"
    },
    {
-    "title": "ZERONYTH testnet post",
-    "url": "https://x.com/ZeroLayerTools/status/2114966242809553223"
+    "title": "Asentum testnet airdrop playbook post",
+    "url": "https://x.com/Asentum/status/2115170267282784398"
    },
    {
-    "title": "BKC Network whitepaper post",
-    "url": "https://x.com/BKC_Network/status/2115053306389352626"
+    "title": "GangLink intro post",
+    "url": "https://x.com/Ganglink_/status/2115263730191847550"
    }
   ]
  }
