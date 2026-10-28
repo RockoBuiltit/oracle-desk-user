@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-10-27T16:02:57-05:00",
+ "generated_at": "2026-10-27T20:10:00-05:00",
  "status": {
   "state": "idle",
-  "last_scan": "2026-10-27T16:02:57-05:00",
-  "next_scan": "2026-10-27T20:00:00-05:00",
+  "last_scan": "2026-10-27T20:10:00-05:00",
+  "next_scan": "2026-10-28T12:00:00-05:00",
   "activity": [
-   "4 PM scan: watchlist + radar accounts, AI and quantum keyword sweeps (equal weight), X news, web",
+   "8 PM scan: watchlist + radar accounts, AI and quantum keyword sweeps (equal weight), X news, DexScreener",
    "No HIGH PRIORITY finds; alerts used today 0 of 3",
    "No new OPEN CAMPAIGNS; GenLayer registration and Ritual claim still open",
-   "Ritual claim window is 3 months per official airdrop terms (computed close ~Mon 1/26/2027)",
-   "GenLayer: ChainPatrol now watching for impostors ahead of TGE; GEN TGE still undated",
-   "Rejected: Parano1d 46, Kairos 20, AIUKI 15, Univex 12",
+   "Quiet evening from official accounts; Antseed promoted ANTS earning (weekly claim Thu 10/29)",
+   "Context only: Starknet community poll backed researching an independent post-quantum L1 (draft whitepaper due November); no new token",
+   "Rejected: Salvor 24, KEPT 10",
    "Tool failures: none"
   ],
   "alerts_used_today": 0,
   "alert_cap": 3,
-  "x_reads_left_today": 962
+  "x_reads_left_today": 994
  },
  "alerts": [
   {
@@ -864,6 +864,20 @@
    "score": 12,
    "reason": "'AI + PQC L1' presale starting Wed 10/28 with referral mining, KYC 'asset migration', 12B supply, several domains and Telegram-only X link; no named team, audit or independent source",
    "at": "2026-10-27T16:02:57-05:00"
+  },
+  {
+   "name": "Salvor (SALVOR)",
+   "theme": "AI",
+   "score": 24,
+   "reason": "Bags/Meteora Solana token (pool since Sep 2026, ~$0.55M FDV, ~$69K liquidity) claiming an 'AGI' path; single-developer GitHub, no named backers, audit or independent coverage; CoinGecko listing alone is not validation",
+   "at": "2026-10-27T20:10:00-05:00"
+  },
+  {
+   "name": "KEPT",
+   "theme": "Quantum",
+   "score": 10,
+   "reason": "Brand-new launchpad account (0 followers, 3 posts) using 'post-quantum ML-DSA-65' as a marketing hook; no team, audit, token details or independent source",
+   "at": "2026-10-27T20:10:00-05:00"
   }
  ],
  "deadlines": [
@@ -933,7 +947,7 @@
    "status": "open"
   }
  ],
- "snapshot_note": "X sweep since 12:10 PM CT Oct 27 (noon scan). Times in Central",
+ "snapshot_note": "X sweep since 4:00 PM CT Oct 27 (4 PM scan). Times in Central",
  "prices_updated": "2026-10-27T20:01:00-05:00",
  "report": {
   "updated": "2026-10-27T08:20:00-05:00",
