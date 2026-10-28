@@ -172,13 +172,13 @@
      "score": 76
     }
    ],
-   "market_cap": 23577004,
+   "market_cap": 23684631,
    "fdv": 436976923,
-   "volume_24h": 1593824,
+   "volume_24h": 1600150,
    "dex_route": "NEAR: Rhea Finance, NEAR Intents, InstaSwap",
    "next_milestone": "QTC lending market on RHEA (official: 'soon', undated)",
    "milestone_date": null,
-   "last_update": "2026-10-27T19:50:07-05:00",
+   "last_update": "2026-10-27T20:01:00-05:00",
    "links": [
     {
      "label": "Quantus",
@@ -199,7 +199,7 @@
    ],
    "upgrade_if": "Named-firm audit; more venues",
    "downgrade_if": "Chain halt; mining-pool centralization",
-   "price": 76.52,
+   "price": 76.9,
    "website": "https://www.quantus.com",
    "score_breakdown": {
     "team": 11,
@@ -211,7 +211,7 @@
     "social": 9
    },
    "cg_id": "quantus",
-   "price_updated": "2026-10-27T19:50:07-05:00",
+   "price_updated": "2026-10-27T20:01:00-05:00",
    "logo": "logos/quantus.png"
   },
   {
@@ -235,13 +235,13 @@
      "score": 74
     }
    ],
-   "market_cap": 616198591,
+   "market_cap": 616178951,
    "fdv": 3899151186,
-   "volume_24h": 6882974,
+   "volume_24h": 6876303,
    "dex_route": "No DEX route; CEX: SafeTrade PEARL/USDT",
    "next_milestone": "Coinbase roadmap listing, no trading date",
    "milestone_date": null,
-   "last_update": "2026-10-27T19:50:07-05:00",
+   "last_update": "2026-10-27T20:01:00-05:00",
    "links": [
     {
      "label": "Pearl Research",
@@ -274,7 +274,7 @@
     "social": 8
    },
    "cg_id": "pearl-2",
-   "price_updated": "2026-10-27T19:50:07-05:00",
+   "price_updated": "2026-10-27T20:01:00-05:00",
    "logo": "logos/pearl.png"
   },
   {
@@ -934,7 +934,7 @@
   }
  ],
  "snapshot_note": "X sweep since 12:10 PM CT Oct 27 (noon scan). Times in Central",
- "prices_updated": "2026-10-27T19:50:07-05:00",
+ "prices_updated": "2026-10-27T20:01:00-05:00",
  "report": {
   "updated": "2026-10-27T08:20:00-05:00",
   "intro": "THE ORACLE 8 AM digest for Tue Oct 27, 2026. Overnight sweep 8 PM CT Mon to 8 AM CT Tue across AI and quantum, equal weight.",
